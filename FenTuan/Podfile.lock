@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Bugtags (2.4.0):
+    - Bugtags/Core (= 2.4.0)
+  - Bugtags/Core (2.4.0)
   - FDFullscreenPopGesture (1.1)
   - IQKeyboardManager (5.0.0)
   - Masonry (1.1.0)
@@ -29,6 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - Bugtags
   - FDFullscreenPopGesture (= 1.1)
   - IQKeyboardManager
   - Masonry
@@ -42,6 +46,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - Bugtags
     - FDFullscreenPopGesture
     - IQKeyboardManager
     - Masonry
@@ -54,6 +59,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bugtags: 916b3dcbc4e495f96206ac35546aa196c9ed2132
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   IQKeyboardManager: 5edc5bcd5cd3e6982924e6318b82c57099eb0a6c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -64,6 +70,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: eb4cdc5fe1e8b99c9da698dce6633584b5e7fceb
+PODFILE CHECKSUM: 051f863380335b655ff7d46969f41f0ee69af8f2
 
 COCOAPODS: 1.5.0
