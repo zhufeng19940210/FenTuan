@@ -3,7 +3,7 @@
 //  Created by bailing on 2018/6/29.
 //  Copyright © 2018年 zhufeng. All rights reserved.
 #import "AppDelegate.h"
-
+#import "FTLoginVC.h"
 @interface AppDelegate ()
 
 @end
@@ -11,7 +11,11 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    FTLoginVC *loginvc = [[FTLoginVC alloc]init];
+    self.window.rootViewController = loginvc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
