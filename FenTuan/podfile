@@ -27,5 +27,7 @@ target 'FenTuan' do
     pod 'Bugtags'
     # FBKVOController
     #pod 'KVOController'
+    # 微信登录
+   pod 'WechatOpenSDK'
   # Pods for FenTuan
 end
