@@ -13,6 +13,45 @@
 		BF30C91620E6E98800A5FCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF30C91520E6E98800A5FCA2 /* Assets.xcassets */; };
 		BF30C91920E6E98800A5FCA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF30C91720E6E98800A5FCA2 /* LaunchScreen.storyboard */; };
 		BF30C91C20E6E98800A5FCA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C91B20E6E98800A5FCA2 /* main.m */; };
+		BF30C94920E6F01300A5FCA2 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C94820E6F01300A5FCA2 /* BaseVC.m */; };
+		BF30C94C20E6F03D00A5FCA2 /* FTHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C94B20E6F03D00A5FCA2 /* FTHomeVC.m */; };
+		BF30C94F20E6F06E00A5FCA2 /* FTNoticeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C94E20E6F06E00A5FCA2 /* FTNoticeVC.m */; };
+		BF30C95220E6F08A00A5FCA2 /* FTRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C95120E6F08A00A5FCA2 /* FTRecommendVC.m */; };
+		BF30C95520E6F09E00A5FCA2 /* FTSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C95420E6F09E00A5FCA2 /* FTSettingVC.m */; };
+		BF30C95820E6F0BA00A5FCA2 /* FTStoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C95720E6F0BA00A5FCA2 /* FTStoreVC.m */; };
+		BF30C95C20E6F0D500A5FCA2 /* FTLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C95A20E6F0D500A5FCA2 /* FTLoginVC.m */; };
+		BF30C95D20E6F0D500A5FCA2 /* FTLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF30C95B20E6F0D500A5FCA2 /* FTLoginVC.xib */; };
+		BF30C96120E6F0F900A5FCA2 /* FTRegsiterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C95F20E6F0F900A5FCA2 /* FTRegsiterVC.m */; };
+		BF30C96220E6F0F900A5FCA2 /* FTRegsiterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF30C96020E6F0F900A5FCA2 /* FTRegsiterVC.xib */; };
+		BF30C96620E6F10C00A5FCA2 /* FTFindPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C96420E6F10C00A5FCA2 /* FTFindPwdVC.m */; };
+		BF30C96720E6F10C00A5FCA2 /* FTFindPwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF30C96520E6F10C00A5FCA2 /* FTFindPwdVC.xib */; };
+		BF30C96B20E6F12C00A5FCA2 /* FTEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C96920E6F12C00A5FCA2 /* FTEditVC.m */; };
+		BF30C96C20E6F12C00A5FCA2 /* FTEditVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF30C96A20E6F12C00A5FCA2 /* FTEditVC.xib */; };
+		BF30C97020E6F13F00A5FCA2 /* FTBindPhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C96E20E6F13F00A5FCA2 /* FTBindPhoneVC.m */; };
+		BF30C97120E6F13F00A5FCA2 /* FTBindPhoneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF30C96F20E6F13F00A5FCA2 /* FTBindPhoneVC.xib */; };
+		BF30C97420E6F42F00A5FCA2 /* FTBaseTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C97320E6F42F00A5FCA2 /* FTBaseTabbarVC.m */; };
+		BF30C99E20E6FCC200A5FCA2 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C97720E6FCC100A5FCA2 /* UIView+ZJFrame.m */; };
+		BF30C99F20E6FCC200A5FCA2 /* UIViewController+ZJScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C97920E6FCC100A5FCA2 /* UIViewController+ZJScrollPageController.m */; };
+		BF30C9A020E6FCC200A5FCA2 /* ZJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C97B20E6FCC100A5FCA2 /* ZJCollectionView.m */; };
+		BF30C9A120E6FCC200A5FCA2 /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C97D20E6FCC100A5FCA2 /* ZJContentView.m */; };
+		BF30C9A220E6FCC200A5FCA2 /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C97F20E6FCC100A5FCA2 /* ZJScrollPageView.m */; };
+		BF30C9A320E6FCC200A5FCA2 /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C98220E6FCC100A5FCA2 /* ZJScrollSegmentView.m */; };
+		BF30C9A420E6FCC200A5FCA2 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C98420E6FCC100A5FCA2 /* ZJSegmentStyle.m */; };
+		BF30C9A520E6FCC200A5FCA2 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C98620E6FCC100A5FCA2 /* ZJTitleView.m */; };
+		BF30C9A620E6FCC200A5FCA2 /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C98920E6FCC100A5FCA2 /* YTKBaseRequest.m */; };
+		BF30C9A720E6FCC200A5FCA2 /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C98B20E6FCC100A5FCA2 /* YTKBatchRequest.m */; };
+		BF30C9A820E6FCC200A5FCA2 /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C98D20E6FCC100A5FCA2 /* YTKBatchRequestAgent.m */; };
+		BF30C9A920E6FCC200A5FCA2 /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C98F20E6FCC100A5FCA2 /* YTKChainRequest.m */; };
+		BF30C9AA20E6FCC200A5FCA2 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C99120E6FCC100A5FCA2 /* YTKChainRequestAgent.m */; };
+		BF30C9AB20E6FCC200A5FCA2 /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C99420E6FCC100A5FCA2 /* YTKNetworkAgent.m */; };
+		BF30C9AC20E6FCC200A5FCA2 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C99620E6FCC100A5FCA2 /* YTKNetworkConfig.m */; };
+		BF30C9AD20E6FCC200A5FCA2 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C99820E6FCC100A5FCA2 /* YTKNetworkPrivate.m */; };
+		BF30C9AE20E6FCC200A5FCA2 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C99A20E6FCC100A5FCA2 /* YTKRequest.m */; };
+		BF30C9AF20E6FCC200A5FCA2 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C99D20E6FCC200A5FCA2 /* UIScrollView+EmptyDataSet.m */; };
+		BF30C9B620E6FCE400A5FCA2 /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C9B120E6FCE300A5FCA2 /* UIButton+countDown.m */; };
+		BF30C9B720E6FCE400A5FCA2 /* UIButton+POImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C9B220E6FCE300A5FCA2 /* UIButton+POImagePosition.m */; };
+		BF30C9B820E6FCE400A5FCA2 /* UIViewController+LCENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C9B320E6FCE300A5FCA2 /* UIViewController+LCENavigationBar.m */; };
+		BF30C9BB20E6FD0900A5FCA2 /* FTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C9BA20E6FD0900A5FCA2 /* FTUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +66,82 @@
 		BF30C91820E6E98800A5FCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF30C91A20E6E98800A5FCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF30C91B20E6E98800A5FCA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF30C94720E6F01300A5FCA2 /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		BF30C94820E6F01300A5FCA2 /* BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		BF30C94A20E6F03D00A5FCA2 /* FTHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTHomeVC.h; sourceTree = "<group>"; };
+		BF30C94B20E6F03D00A5FCA2 /* FTHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTHomeVC.m; sourceTree = "<group>"; };
+		BF30C94D20E6F06E00A5FCA2 /* FTNoticeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTNoticeVC.h; sourceTree = "<group>"; };
+		BF30C94E20E6F06E00A5FCA2 /* FTNoticeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTNoticeVC.m; sourceTree = "<group>"; };
+		BF30C95020E6F08A00A5FCA2 /* FTRecommendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRecommendVC.h; sourceTree = "<group>"; };
+		BF30C95120E6F08A00A5FCA2 /* FTRecommendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRecommendVC.m; sourceTree = "<group>"; };
+		BF30C95320E6F09E00A5FCA2 /* FTSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSettingVC.h; sourceTree = "<group>"; };
+		BF30C95420E6F09E00A5FCA2 /* FTSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSettingVC.m; sourceTree = "<group>"; };
+		BF30C95620E6F0BA00A5FCA2 /* FTStoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTStoreVC.h; sourceTree = "<group>"; };
+		BF30C95720E6F0BA00A5FCA2 /* FTStoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTStoreVC.m; sourceTree = "<group>"; };
+		BF30C95920E6F0D500A5FCA2 /* FTLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTLoginVC.h; sourceTree = "<group>"; };
+		BF30C95A20E6F0D500A5FCA2 /* FTLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTLoginVC.m; sourceTree = "<group>"; };
+		BF30C95B20E6F0D500A5FCA2 /* FTLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTLoginVC.xib; sourceTree = "<group>"; };
+		BF30C95E20E6F0F900A5FCA2 /* FTRegsiterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRegsiterVC.h; sourceTree = "<group>"; };
+		BF30C95F20E6F0F900A5FCA2 /* FTRegsiterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRegsiterVC.m; sourceTree = "<group>"; };
+		BF30C96020E6F0F900A5FCA2 /* FTRegsiterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTRegsiterVC.xib; sourceTree = "<group>"; };
+		BF30C96320E6F10C00A5FCA2 /* FTFindPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFindPwdVC.h; sourceTree = "<group>"; };
+		BF30C96420E6F10C00A5FCA2 /* FTFindPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFindPwdVC.m; sourceTree = "<group>"; };
+		BF30C96520E6F10C00A5FCA2 /* FTFindPwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTFindPwdVC.xib; sourceTree = "<group>"; };
+		BF30C96820E6F12C00A5FCA2 /* FTEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTEditVC.h; sourceTree = "<group>"; };
+		BF30C96920E6F12C00A5FCA2 /* FTEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTEditVC.m; sourceTree = "<group>"; };
+		BF30C96A20E6F12C00A5FCA2 /* FTEditVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTEditVC.xib; sourceTree = "<group>"; };
+		BF30C96D20E6F13F00A5FCA2 /* FTBindPhoneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTBindPhoneVC.h; sourceTree = "<group>"; };
+		BF30C96E20E6F13F00A5FCA2 /* FTBindPhoneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBindPhoneVC.m; sourceTree = "<group>"; };
+		BF30C96F20E6F13F00A5FCA2 /* FTBindPhoneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTBindPhoneVC.xib; sourceTree = "<group>"; };
+		BF30C97220E6F42F00A5FCA2 /* FTBaseTabbarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTBaseTabbarVC.h; sourceTree = "<group>"; };
+		BF30C97320E6F42F00A5FCA2 /* FTBaseTabbarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBaseTabbarVC.m; sourceTree = "<group>"; };
+		BF30C97620E6FCC100A5FCA2 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJFrame.h"; sourceTree = "<group>"; };
+		BF30C97720E6FCC100A5FCA2 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJFrame.m"; sourceTree = "<group>"; };
+		BF30C97820E6FCC100A5FCA2 /* UIViewController+ZJScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZJScrollPageController.h"; sourceTree = "<group>"; };
+		BF30C97920E6FCC100A5FCA2 /* UIViewController+ZJScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZJScrollPageController.m"; sourceTree = "<group>"; };
+		BF30C97A20E6FCC100A5FCA2 /* ZJCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCollectionView.h; sourceTree = "<group>"; };
+		BF30C97B20E6FCC100A5FCA2 /* ZJCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCollectionView.m; sourceTree = "<group>"; };
+		BF30C97C20E6FCC100A5FCA2 /* ZJContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJContentView.h; sourceTree = "<group>"; };
+		BF30C97D20E6FCC100A5FCA2 /* ZJContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJContentView.m; sourceTree = "<group>"; };
+		BF30C97E20E6FCC100A5FCA2 /* ZJScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageView.h; sourceTree = "<group>"; };
+		BF30C97F20E6FCC100A5FCA2 /* ZJScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollPageView.m; sourceTree = "<group>"; };
+		BF30C98020E6FCC100A5FCA2 /* ZJScrollPageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageViewDelegate.h; sourceTree = "<group>"; };
+		BF30C98120E6FCC100A5FCA2 /* ZJScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollSegmentView.h; sourceTree = "<group>"; };
+		BF30C98220E6FCC100A5FCA2 /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollSegmentView.m; sourceTree = "<group>"; };
+		BF30C98320E6FCC100A5FCA2 /* ZJSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSegmentStyle.h; sourceTree = "<group>"; };
+		BF30C98420E6FCC100A5FCA2 /* ZJSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegmentStyle.m; sourceTree = "<group>"; };
+		BF30C98520E6FCC100A5FCA2 /* ZJTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTitleView.h; sourceTree = "<group>"; };
+		BF30C98620E6FCC100A5FCA2 /* ZJTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTitleView.m; sourceTree = "<group>"; };
+		BF30C98820E6FCC100A5FCA2 /* YTKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBaseRequest.h; sourceTree = "<group>"; };
+		BF30C98920E6FCC100A5FCA2 /* YTKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBaseRequest.m; sourceTree = "<group>"; };
+		BF30C98A20E6FCC100A5FCA2 /* YTKBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequest.h; sourceTree = "<group>"; };
+		BF30C98B20E6FCC100A5FCA2 /* YTKBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequest.m; sourceTree = "<group>"; };
+		BF30C98C20E6FCC100A5FCA2 /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequestAgent.h; sourceTree = "<group>"; };
+		BF30C98D20E6FCC100A5FCA2 /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequestAgent.m; sourceTree = "<group>"; };
+		BF30C98E20E6FCC100A5FCA2 /* YTKChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequest.h; sourceTree = "<group>"; };
+		BF30C98F20E6FCC100A5FCA2 /* YTKChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequest.m; sourceTree = "<group>"; };
+		BF30C99020E6FCC100A5FCA2 /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequestAgent.h; sourceTree = "<group>"; };
+		BF30C99120E6FCC100A5FCA2 /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequestAgent.m; sourceTree = "<group>"; };
+		BF30C99220E6FCC100A5FCA2 /* YTKNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetwork.h; sourceTree = "<group>"; };
+		BF30C99320E6FCC100A5FCA2 /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
+		BF30C99420E6FCC100A5FCA2 /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
+		BF30C99520E6FCC100A5FCA2 /* YTKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkConfig.h; sourceTree = "<group>"; };
+		BF30C99620E6FCC100A5FCA2 /* YTKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkConfig.m; sourceTree = "<group>"; };
+		BF30C99720E6FCC100A5FCA2 /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkPrivate.h; sourceTree = "<group>"; };
+		BF30C99820E6FCC100A5FCA2 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
+		BF30C99920E6FCC100A5FCA2 /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
+		BF30C99A20E6FCC100A5FCA2 /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
+		BF30C99C20E6FCC200A5FCA2 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		BF30C99D20E6FCC200A5FCA2 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		BF30C9B020E6FCE300A5FCA2 /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
+		BF30C9B120E6FCE300A5FCA2 /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
+		BF30C9B220E6FCE300A5FCA2 /* UIButton+POImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+POImagePosition.m"; sourceTree = "<group>"; };
+		BF30C9B320E6FCE300A5FCA2 /* UIViewController+LCENavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LCENavigationBar.m"; sourceTree = "<group>"; };
+		BF30C9B420E6FCE300A5FCA2 /* UIViewController+LCENavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LCENavigationBar.h"; sourceTree = "<group>"; };
+		BF30C9B520E6FCE400A5FCA2 /* UIButton+POImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+POImagePosition.h"; sourceTree = "<group>"; };
+		BF30C9B920E6FD0900A5FCA2 /* FTUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTUtil.h; sourceTree = "<group>"; };
+		BF30C9BA20E6FD0900A5FCA2 /* FTUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTUtil.m; sourceTree = "<group>"; };
+		BF30C9BC20E6FE1100A5FCA2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +206,7 @@
 				BF30C91720E6E98800A5FCA2 /* LaunchScreen.storyboard */,
 				BF30C91A20E6E98800A5FCA2 /* Info.plist */,
 				BF30C91B20E6E98800A5FCA2 /* main.m */,
+				BF30C9BC20E6FE1100A5FCA2 /* PrefixHeader.pch */,
 			);
 			path = FenTuan;
 			sourceTree = "<group>";
@@ -105,9 +221,9 @@
 		BF30C92420E6ECCA00A5FCA2 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C92B20E6ECCA00A5FCA2 /* LSF */,
 				BF30C92520E6ECCA00A5FCA2 /* Base */,
 				BF30C92620E6ECCA00A5FCA2 /* Home */,
-				BF30C92B20E6ECCA00A5FCA2 /* LSF */,
 				BF30C93020E6ECCA00A5FCA2 /* Notice */,
 				BF30C93520E6ECCA00A5FCA2 /* Recommend */,
 				BF30C93A20E6ECCA00A5FCA2 /* Setting */,
@@ -119,6 +235,10 @@
 		BF30C92520E6ECCA00A5FCA2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C94720E6F01300A5FCA2 /* BaseVC.h */,
+				BF30C94820E6F01300A5FCA2 /* BaseVC.m */,
+				BF30C97220E6F42F00A5FCA2 /* FTBaseTabbarVC.h */,
+				BF30C97320E6F42F00A5FCA2 /* FTBaseTabbarVC.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -128,8 +248,8 @@
 			children = (
 				BF30C92720E6ECCA00A5FCA2 /* Model */,
 				BF30C92820E6ECCA00A5FCA2 /* View */,
-				BF30C92920E6ECCA00A5FCA2 /* ViewController */,
 				BF30C92A20E6ECCA00A5FCA2 /* ViewModel */,
+				BF30C92920E6ECCA00A5FCA2 /* ViewController */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -151,6 +271,8 @@
 		BF30C92920E6ECCA00A5FCA2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C94A20E6F03D00A5FCA2 /* FTHomeVC.h */,
+				BF30C94B20E6F03D00A5FCA2 /* FTHomeVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -167,8 +289,8 @@
 			children = (
 				BF30C92C20E6ECCA00A5FCA2 /* Model */,
 				BF30C92D20E6ECCA00A5FCA2 /* View */,
-				BF30C92E20E6ECCA00A5FCA2 /* ViewController */,
 				BF30C92F20E6ECCA00A5FCA2 /* ViewModel */,
+				BF30C92E20E6ECCA00A5FCA2 /* ViewController */,
 			);
 			path = LSF;
 			sourceTree = "<group>";
@@ -190,6 +312,21 @@
 		BF30C92E20E6ECCA00A5FCA2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C95920E6F0D500A5FCA2 /* FTLoginVC.h */,
+				BF30C95A20E6F0D500A5FCA2 /* FTLoginVC.m */,
+				BF30C95B20E6F0D500A5FCA2 /* FTLoginVC.xib */,
+				BF30C95E20E6F0F900A5FCA2 /* FTRegsiterVC.h */,
+				BF30C95F20E6F0F900A5FCA2 /* FTRegsiterVC.m */,
+				BF30C96020E6F0F900A5FCA2 /* FTRegsiterVC.xib */,
+				BF30C96320E6F10C00A5FCA2 /* FTFindPwdVC.h */,
+				BF30C96420E6F10C00A5FCA2 /* FTFindPwdVC.m */,
+				BF30C96520E6F10C00A5FCA2 /* FTFindPwdVC.xib */,
+				BF30C96820E6F12C00A5FCA2 /* FTEditVC.h */,
+				BF30C96920E6F12C00A5FCA2 /* FTEditVC.m */,
+				BF30C96A20E6F12C00A5FCA2 /* FTEditVC.xib */,
+				BF30C96D20E6F13F00A5FCA2 /* FTBindPhoneVC.h */,
+				BF30C96E20E6F13F00A5FCA2 /* FTBindPhoneVC.m */,
+				BF30C96F20E6F13F00A5FCA2 /* FTBindPhoneVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -206,8 +343,8 @@
 			children = (
 				BF30C93120E6ECCA00A5FCA2 /* Model */,
 				BF30C93220E6ECCA00A5FCA2 /* View */,
-				BF30C93320E6ECCA00A5FCA2 /* ViewController */,
 				BF30C93420E6ECCA00A5FCA2 /* ViewModel */,
+				BF30C93320E6ECCA00A5FCA2 /* ViewController */,
 			);
 			path = Notice;
 			sourceTree = "<group>";
@@ -229,6 +366,8 @@
 		BF30C93320E6ECCA00A5FCA2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C94D20E6F06E00A5FCA2 /* FTNoticeVC.h */,
+				BF30C94E20E6F06E00A5FCA2 /* FTNoticeVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -245,8 +384,8 @@
 			children = (
 				BF30C93620E6ECCA00A5FCA2 /* Model */,
 				BF30C93720E6ECCA00A5FCA2 /* View */,
-				BF30C93820E6ECCA00A5FCA2 /* ViewController */,
 				BF30C93920E6ECCA00A5FCA2 /* ViewModel */,
+				BF30C93820E6ECCA00A5FCA2 /* ViewController */,
 			);
 			path = Recommend;
 			sourceTree = "<group>";
@@ -268,6 +407,8 @@
 		BF30C93820E6ECCA00A5FCA2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C95020E6F08A00A5FCA2 /* FTRecommendVC.h */,
+				BF30C95120E6F08A00A5FCA2 /* FTRecommendVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -284,8 +425,8 @@
 			children = (
 				BF30C93B20E6ECCA00A5FCA2 /* Model */,
 				BF30C93C20E6ECCA00A5FCA2 /* View */,
-				BF30C93D20E6ECCA00A5FCA2 /* ViewController */,
 				BF30C93E20E6ECCA00A5FCA2 /* ViewModel */,
+				BF30C93D20E6ECCA00A5FCA2 /* ViewController */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -307,6 +448,8 @@
 		BF30C93D20E6ECCA00A5FCA2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C95320E6F09E00A5FCA2 /* FTSettingVC.h */,
+				BF30C95420E6F09E00A5FCA2 /* FTSettingVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -323,8 +466,8 @@
 			children = (
 				BF30C94020E6ECCA00A5FCA2 /* Model */,
 				BF30C94120E6ECCA00A5FCA2 /* View */,
-				BF30C94220E6ECCA00A5FCA2 /* ViewController */,
 				BF30C94320E6ECCA00A5FCA2 /* ViewModel */,
+				BF30C94220E6ECCA00A5FCA2 /* ViewController */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -346,6 +489,8 @@
 		BF30C94220E6ECCA00A5FCA2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C95620E6F0BA00A5FCA2 /* FTStoreVC.h */,
+				BF30C95720E6F0BA00A5FCA2 /* FTStoreVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -360,6 +505,12 @@
 		BF30C94420E6ECCA00A5FCA2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C9B020E6FCE300A5FCA2 /* UIButton+countDown.h */,
+				BF30C9B120E6FCE300A5FCA2 /* UIButton+countDown.m */,
+				BF30C9B520E6FCE400A5FCA2 /* UIButton+POImagePosition.h */,
+				BF30C9B220E6FCE300A5FCA2 /* UIButton+POImagePosition.m */,
+				BF30C9B420E6FCE300A5FCA2 /* UIViewController+LCENavigationBar.h */,
+				BF30C9B320E6FCE300A5FCA2 /* UIViewController+LCENavigationBar.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -367,6 +518,9 @@
 		BF30C94520E6ECCB00A5FCA2 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C97520E6FCC100A5FCA2 /* ZJScrollPageView */,
+				BF30C99B20E6FCC200A5FCA2 /* EmptyDataSet */,
+				BF30C98720E6FCC100A5FCA2 /* YTKNetwork */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -374,8 +528,72 @@
 		BF30C94620E6ECCB00A5FCA2 /* Commen */ = {
 			isa = PBXGroup;
 			children = (
+				BF30C9B920E6FD0900A5FCA2 /* FTUtil.h */,
+				BF30C9BA20E6FD0900A5FCA2 /* FTUtil.m */,
 			);
 			path = Commen;
+			sourceTree = "<group>";
+		};
+		BF30C97520E6FCC100A5FCA2 /* ZJScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				BF30C97620E6FCC100A5FCA2 /* UIView+ZJFrame.h */,
+				BF30C97720E6FCC100A5FCA2 /* UIView+ZJFrame.m */,
+				BF30C97820E6FCC100A5FCA2 /* UIViewController+ZJScrollPageController.h */,
+				BF30C97920E6FCC100A5FCA2 /* UIViewController+ZJScrollPageController.m */,
+				BF30C97A20E6FCC100A5FCA2 /* ZJCollectionView.h */,
+				BF30C97B20E6FCC100A5FCA2 /* ZJCollectionView.m */,
+				BF30C97C20E6FCC100A5FCA2 /* ZJContentView.h */,
+				BF30C97D20E6FCC100A5FCA2 /* ZJContentView.m */,
+				BF30C97E20E6FCC100A5FCA2 /* ZJScrollPageView.h */,
+				BF30C97F20E6FCC100A5FCA2 /* ZJScrollPageView.m */,
+				BF30C98020E6FCC100A5FCA2 /* ZJScrollPageViewDelegate.h */,
+				BF30C98120E6FCC100A5FCA2 /* ZJScrollSegmentView.h */,
+				BF30C98220E6FCC100A5FCA2 /* ZJScrollSegmentView.m */,
+				BF30C98320E6FCC100A5FCA2 /* ZJSegmentStyle.h */,
+				BF30C98420E6FCC100A5FCA2 /* ZJSegmentStyle.m */,
+				BF30C98520E6FCC100A5FCA2 /* ZJTitleView.h */,
+				BF30C98620E6FCC100A5FCA2 /* ZJTitleView.m */,
+			);
+			name = ZJScrollPageView;
+			path = ../../../../Doctor_ios/BCYDoctor/BCYDoctor/Vender/ZJScrollPageView;
+			sourceTree = "<group>";
+		};
+		BF30C98720E6FCC100A5FCA2 /* YTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				BF30C98820E6FCC100A5FCA2 /* YTKBaseRequest.h */,
+				BF30C98920E6FCC100A5FCA2 /* YTKBaseRequest.m */,
+				BF30C98A20E6FCC100A5FCA2 /* YTKBatchRequest.h */,
+				BF30C98B20E6FCC100A5FCA2 /* YTKBatchRequest.m */,
+				BF30C98C20E6FCC100A5FCA2 /* YTKBatchRequestAgent.h */,
+				BF30C98D20E6FCC100A5FCA2 /* YTKBatchRequestAgent.m */,
+				BF30C98E20E6FCC100A5FCA2 /* YTKChainRequest.h */,
+				BF30C98F20E6FCC100A5FCA2 /* YTKChainRequest.m */,
+				BF30C99020E6FCC100A5FCA2 /* YTKChainRequestAgent.h */,
+				BF30C99120E6FCC100A5FCA2 /* YTKChainRequestAgent.m */,
+				BF30C99220E6FCC100A5FCA2 /* YTKNetwork.h */,
+				BF30C99320E6FCC100A5FCA2 /* YTKNetworkAgent.h */,
+				BF30C99420E6FCC100A5FCA2 /* YTKNetworkAgent.m */,
+				BF30C99520E6FCC100A5FCA2 /* YTKNetworkConfig.h */,
+				BF30C99620E6FCC100A5FCA2 /* YTKNetworkConfig.m */,
+				BF30C99720E6FCC100A5FCA2 /* YTKNetworkPrivate.h */,
+				BF30C99820E6FCC100A5FCA2 /* YTKNetworkPrivate.m */,
+				BF30C99920E6FCC100A5FCA2 /* YTKRequest.h */,
+				BF30C99A20E6FCC100A5FCA2 /* YTKRequest.m */,
+			);
+			name = YTKNetwork;
+			path = ../../../../Doctor_ios/BCYDoctor/BCYDoctor/Vender/YTKNetwork;
+			sourceTree = "<group>";
+		};
+		BF30C99B20E6FCC200A5FCA2 /* EmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				BF30C99C20E6FCC200A5FCA2 /* UIScrollView+EmptyDataSet.h */,
+				BF30C99D20E6FCC200A5FCA2 /* UIScrollView+EmptyDataSet.m */,
+			);
+			name = EmptyDataSet;
+			path = ../../../../Doctor_ios/BCYDoctor/BCYDoctor/Vender/EmptyDataSet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,8 +657,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF30C91920E6E98800A5FCA2 /* LaunchScreen.storyboard in Resources */,
+				BF30C96C20E6F12C00A5FCA2 /* FTEditVC.xib in Resources */,
+				BF30C96720E6F10C00A5FCA2 /* FTFindPwdVC.xib in Resources */,
 				BF30C91620E6E98800A5FCA2 /* Assets.xcassets in Resources */,
+				BF30C97120E6F13F00A5FCA2 /* FTBindPhoneVC.xib in Resources */,
+				BF30C95D20E6F0D500A5FCA2 /* FTLoginVC.xib in Resources */,
 				BF30C91420E6E98800A5FCA2 /* Main.storyboard in Resources */,
+				BF30C96220E6F0F900A5FCA2 /* FTRegsiterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,8 +717,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF30C9A620E6FCC200A5FCA2 /* YTKBaseRequest.m in Sources */,
+				BF30C9B720E6FCE400A5FCA2 /* UIButton+POImagePosition.m in Sources */,
+				BF30C9AA20E6FCC200A5FCA2 /* YTKChainRequestAgent.m in Sources */,
+				BF30C99F20E6FCC200A5FCA2 /* UIViewController+ZJScrollPageController.m in Sources */,
+				BF30C94920E6F01300A5FCA2 /* BaseVC.m in Sources */,
+				BF30C9A420E6FCC200A5FCA2 /* ZJSegmentStyle.m in Sources */,
+				BF30C94C20E6F03D00A5FCA2 /* FTHomeVC.m in Sources */,
+				BF30C96B20E6F12C00A5FCA2 /* FTEditVC.m in Sources */,
+				BF30C97420E6F42F00A5FCA2 /* FTBaseTabbarVC.m in Sources */,
+				BF30C9A720E6FCC200A5FCA2 /* YTKBatchRequest.m in Sources */,
+				BF30C94F20E6F06E00A5FCA2 /* FTNoticeVC.m in Sources */,
+				BF30C9BB20E6FD0900A5FCA2 /* FTUtil.m in Sources */,
+				BF30C9AE20E6FCC200A5FCA2 /* YTKRequest.m in Sources */,
+				BF30C9A120E6FCC200A5FCA2 /* ZJContentView.m in Sources */,
+				BF30C99E20E6FCC200A5FCA2 /* UIView+ZJFrame.m in Sources */,
 				BF30C91C20E6E98800A5FCA2 /* main.m in Sources */,
+				BF30C9A920E6FCC200A5FCA2 /* YTKChainRequest.m in Sources */,
+				BF30C9A320E6FCC200A5FCA2 /* ZJScrollSegmentView.m in Sources */,
+				BF30C97020E6F13F00A5FCA2 /* FTBindPhoneVC.m in Sources */,
+				BF30C95C20E6F0D500A5FCA2 /* FTLoginVC.m in Sources */,
+				BF30C9A020E6FCC200A5FCA2 /* ZJCollectionView.m in Sources */,
+				BF30C9A220E6FCC200A5FCA2 /* ZJScrollPageView.m in Sources */,
+				BF30C9AD20E6FCC200A5FCA2 /* YTKNetworkPrivate.m in Sources */,
+				BF30C9B820E6FCE400A5FCA2 /* UIViewController+LCENavigationBar.m in Sources */,
+				BF30C95520E6F09E00A5FCA2 /* FTSettingVC.m in Sources */,
+				BF30C96620E6F10C00A5FCA2 /* FTFindPwdVC.m in Sources */,
+				BF30C9AB20E6FCC200A5FCA2 /* YTKNetworkAgent.m in Sources */,
+				BF30C9B620E6FCE400A5FCA2 /* UIButton+countDown.m in Sources */,
 				BF30C90E20E6E98800A5FCA2 /* AppDelegate.m in Sources */,
+				BF30C95820E6F0BA00A5FCA2 /* FTStoreVC.m in Sources */,
+				BF30C9AC20E6FCC200A5FCA2 /* YTKNetworkConfig.m in Sources */,
+				BF30C9A520E6FCC200A5FCA2 /* ZJTitleView.m in Sources */,
+				BF30C95220E6F08A00A5FCA2 /* FTRecommendVC.m in Sources */,
+				BF30C96120E6F0F900A5FCA2 /* FTRegsiterVC.m in Sources */,
+				BF30C9AF20E6FCC200A5FCA2 /* UIScrollView+EmptyDataSet.m in Sources */,
+				BF30C9A820E6FCC200A5FCA2 /* YTKBatchRequestAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +816,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FenTuan/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -612,6 +871,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FenTuan/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -632,6 +893,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FenTuan/PrefixHeader.pch";
 				INFOPLIST_FILE = FenTuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -648,6 +910,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FenTuan/PrefixHeader.pch";
 				INFOPLIST_FILE = FenTuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

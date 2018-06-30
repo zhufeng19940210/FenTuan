@@ -1,4 +1,5 @@
-//  AppDelegate.h
+//
+//  FTBaseTabbarVC.h
 //  FenTuan
 //
 //  Created by bailing on 2018/6/29.
@@ -7,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface FTBaseTabbarVC : UITabBarController
 
 @end
-
