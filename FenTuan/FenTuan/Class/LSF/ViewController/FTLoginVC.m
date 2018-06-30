@@ -1,40 +1,44 @@
-
-
-
-//
 //  FTLoginVC.m
 //  FenTuan
-//
 //  Created by bailing on 2018/6/29.
 //  Copyright © 2018年 zhufeng. All rights reserved.
-//
-
 #import "FTLoginVC.h"
-
+#import "FTRegsiterVC.h"
+#import "FTFindPwdVC.h"
+#import "FTBindPhoneVC.h"
 @interface FTLoginVC ()
-
+@property (weak, nonatomic) IBOutlet UITextField *tf_phone;
+@property (weak, nonatomic) IBOutlet UITextField *tf_pwd;
 @end
-
 @implementation FTLoginVC
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.navigationController.navigationBar.barTintColor = MainThemeColor;
+    self.view.backgroundColor = MainThemeColor;
 }
-
+#pragma mark 登录
+- (IBAction)actionLoginBtn:(UIButton *)sender
+{
+    
+}
+#pragma mark 微信登录
+- (IBAction)actionWeChatBtn:(UIButton *)sender
+{
+    NSLog(@"微信注册");
+}
+#pragma mark 手机注册
+- (IBAction)actionRegisterBtn:(UIButton *)sender
+{
+    FTRegsiterVC *regsitervc = [[FTRegsiterVC alloc]init];
+    [self.navigationController pushViewController:regsitervc animated:YES];
+}
+#pragma mark 忘记密码
+- (IBAction)actionFindPwdBtn:(UIButton *)sender
+{
+    FTFindPwdVC *findpwdvc = [[FTFindPwdVC alloc]init];
+    [self.navigationController pushViewController:findpwdvc animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

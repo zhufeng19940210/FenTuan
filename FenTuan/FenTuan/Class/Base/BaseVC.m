@@ -115,10 +115,11 @@
 #pragma mark - Actions
 - (void)navigationBarLeftButtonEvent:(UIButton *)sender
 {
-    
+    [self backViewController];
 }
 - (void)navigationBarRightButtonEvent:(UIButton *)sender
 {
+    
 }
 - (void)backViewController
 {   //加一个保险下哈哈

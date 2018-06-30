@@ -18,6 +18,7 @@
 #import <UINavigationController+FDFullscreenPopGesture.h>
 #import <Masonry.h>
 #import <SDCycleScrollView.h>
+#import <Bugtags/Bugtags.h>
 
 //动态获取设备高度
 #define IPHONE_HEIGHT [UIScreen mainScreen].bounds.size.height
@@ -33,7 +34,7 @@
 #define RGBA(A,B,C,D) [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:D]
 
 #define GrayFontColor HEXCOLOR(0xbbbbbb)
-#define MainThemeColor HEXCOLOR(0x19b8b0)
+#define MainThemeColor HEXCOLOR(0xFF3962)
 #define BackgroundColor HEXCOLOR(0xf5f5f5)
 #define LineColor HEXCOLOR(0xEAEAEA)
 #define InputTextColor HEXCOLOR(0x333333)
