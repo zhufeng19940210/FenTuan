@@ -30,7 +30,7 @@
             });
         } else {
             int seconds = timeOut % 60;
-            NSString *timeStr = [NSString stringWithFormat:@"%0.2d", seconds];
+            NSString *timeStr = [NSString stringWithFormat:@"%0.1d", seconds];
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.backgroundColor = color;
                 [self setTitle:[NSString stringWithFormat:@"%@%@",timeStr,subTitle] forState:UIControlStateNormal];

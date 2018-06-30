@@ -5,6 +5,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 #import "UIScrollView+EmptyDataSet.h"
+#import "FTUtil.h"
 #import "YTKRequest.h"
 #import "YTKNetworkConfig.h"
 #import "ZJScrollPageView.h"
@@ -19,6 +20,7 @@
 #import <Masonry.h>
 #import <SDCycleScrollView.h>
 #import <Bugtags/Bugtags.h>
+#import <SMS_SDK/SMSSDK.h>
 
 //动态获取设备高度
 #define IPHONE_HEIGHT [UIScreen mainScreen].bounds.size.height

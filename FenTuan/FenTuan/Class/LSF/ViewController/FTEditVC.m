@@ -1,38 +1,37 @@
-
-//
 //  FTEditVC.m
 //  FenTuan
-//
 //  Created by bailing on 2018/6/29.
 //  Copyright © 2018年 zhufeng. All rights reserved.
-//
-
 #import "FTEditVC.h"
-
 @interface FTEditVC ()
-
+@property (weak, nonatomic) IBOutlet UITextField *tf_invitate;
+@property (weak, nonatomic) IBOutlet UITextField *tf_name;
+@property (weak, nonatomic) IBOutlet UITextField *tf_pwd;
 @end
-
 @implementation FTEditVC
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.title = @"填写信息";
 }
-
+#pragma mark 确定
+- (IBAction)actionCommitBtn:(UIButton *)sender
+{
+    if (_tf_invitate.text.length == 0) {
+        [SVProgressHUD showInfoWithStatus:@"邀请码不能为空"];
+        return;
+    }
+    if (_tf_name.text.length == 0) {
+        [SVProgressHUD showInfoWithStatus:@"昵称不能为空"];
+        return;
+    }
+    if (_tf_pwd.text.length == 0) {
+        [SVProgressHUD showInfoWithStatus:@"密码不能为空"];
+        return;
+    }
+    //开始去注册
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

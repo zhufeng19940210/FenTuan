@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		5548031D851B5154D934E62A /* libPods-FenTuan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93098AF8AFAB39CA557FF08D /* libPods-FenTuan.a */; };
+		BF2D2FED20E81801008FFFC7 /* FTAgreementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D2FEB20E81801008FFFC7 /* FTAgreementVC.m */; };
+		BF2D2FEE20E81801008FFFC7 /* FTAgreementVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D2FEC20E81801008FFFC7 /* FTAgreementVC.xib */; };
+		BF2D2FF420E82590008FFFC7 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FF120E82590008FFFC7 /* MOBFoundation.framework */; };
+		BF2D2FF520E82590008FFFC7 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FF320E82590008FFFC7 /* SMS_SDK.framework */; };
+		BF2D2FF720E825FB008FFFC7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FF620E825FB008FFFC7 /* libz.tbd */; };
+		BF2D2FF920E82605008FFFC7 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FF820E82605008FFFC7 /* libicucore.tbd */; };
+		BF2D2FFB20E8260D008FFFC7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FFA20E8260D008FFFC7 /* MessageUI.framework */; };
+		BF2D2FFD20E82617008FFFC7 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FFC20E82617008FFFC7 /* JavaScriptCore.framework */; };
+		BF2D2FFF20E82624008FFFC7 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FFE20E82624008FFFC7 /* libstdc++.tbd */; };
+		BF2D300320E83352008FFFC7 /* FTLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300220E83352008FFFC7 /* FTLoginApi.m */; };
+		BF2D300620E8335E008FFFC7 /* FTRegisterApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300520E8335E008FFFC7 /* FTRegisterApi.m */; };
+		BF2D300920E83393008FFFC7 /* FTGetCodeApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300820E83393008FFFC7 /* FTGetCodeApi.m */; };
+		BF2D300C20E833C1008FFFC7 /* FTBindPhoneApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300B20E833C1008FFFC7 /* FTBindPhoneApi.m */; };
+		BF2D300F20E833D1008FFFC7 /* FTUpdatePwdApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300E20E833D1008FFFC7 /* FTUpdatePwdApi.m */; };
+		BF2D301220E83ED3008FFFC7 /* FTFindPwdApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D301120E83ED3008FFFC7 /* FTFindPwdApi.m */; };
+		BF2D301520E8422E008FFFC7 /* FTPerfectInfoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D301420E8422E008FFFC7 /* FTPerfectInfoApi.m */; };
 		BF30C90E20E6E98800A5FCA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C90D20E6E98800A5FCA2 /* AppDelegate.m */; };
 		BF30C91420E6E98800A5FCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF30C91220E6E98800A5FCA2 /* Main.storyboard */; };
 		BF30C91620E6E98800A5FCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF30C91520E6E98800A5FCA2 /* Assets.xcassets */; };
@@ -58,6 +74,30 @@
 		12DD582F4887FA56A595964F /* Pods-FenTuan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenTuan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FenTuan/Pods-FenTuan.debug.xcconfig"; sourceTree = "<group>"; };
 		72C60D26FACAE156677CC614 /* Pods-FenTuan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenTuan.release.xcconfig"; path = "Pods/Target Support Files/Pods-FenTuan/Pods-FenTuan.release.xcconfig"; sourceTree = "<group>"; };
 		93098AF8AFAB39CA557FF08D /* libPods-FenTuan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FenTuan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2D2FEA20E81801008FFFC7 /* FTAgreementVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAgreementVC.h; sourceTree = "<group>"; };
+		BF2D2FEB20E81801008FFFC7 /* FTAgreementVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAgreementVC.m; sourceTree = "<group>"; };
+		BF2D2FEC20E81801008FFFC7 /* FTAgreementVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTAgreementVC.xib; sourceTree = "<group>"; };
+		BF2D2FF120E82590008FFFC7 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		BF2D2FF320E82590008FFFC7 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		BF2D2FF620E825FB008FFFC7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BF2D2FF820E82605008FFFC7 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		BF2D2FFA20E8260D008FFFC7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BF2D2FFC20E82617008FFFC7 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BF2D2FFE20E82624008FFFC7 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		BF2D300120E83352008FFFC7 /* FTLoginApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTLoginApi.h; sourceTree = "<group>"; };
+		BF2D300220E83352008FFFC7 /* FTLoginApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTLoginApi.m; sourceTree = "<group>"; };
+		BF2D300420E8335E008FFFC7 /* FTRegisterApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRegisterApi.h; sourceTree = "<group>"; };
+		BF2D300520E8335E008FFFC7 /* FTRegisterApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRegisterApi.m; sourceTree = "<group>"; };
+		BF2D300720E83393008FFFC7 /* FTGetCodeApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTGetCodeApi.h; sourceTree = "<group>"; };
+		BF2D300820E83393008FFFC7 /* FTGetCodeApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGetCodeApi.m; sourceTree = "<group>"; };
+		BF2D300A20E833C1008FFFC7 /* FTBindPhoneApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTBindPhoneApi.h; sourceTree = "<group>"; };
+		BF2D300B20E833C1008FFFC7 /* FTBindPhoneApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBindPhoneApi.m; sourceTree = "<group>"; };
+		BF2D300D20E833D1008FFFC7 /* FTUpdatePwdApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTUpdatePwdApi.h; sourceTree = "<group>"; };
+		BF2D300E20E833D1008FFFC7 /* FTUpdatePwdApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTUpdatePwdApi.m; sourceTree = "<group>"; };
+		BF2D301020E83ED3008FFFC7 /* FTFindPwdApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFindPwdApi.h; sourceTree = "<group>"; };
+		BF2D301120E83ED3008FFFC7 /* FTFindPwdApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFindPwdApi.m; sourceTree = "<group>"; };
+		BF2D301320E8422E008FFFC7 /* FTPerfectInfoApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPerfectInfoApi.h; sourceTree = "<group>"; };
+		BF2D301420E8422E008FFFC7 /* FTPerfectInfoApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPerfectInfoApi.m; sourceTree = "<group>"; };
 		BF30C90920E6E98800A5FCA2 /* FenTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF30C90C20E6E98800A5FCA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF30C90D20E6E98800A5FCA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -149,6 +189,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2D2FFF20E82624008FFFC7 /* libstdc++.tbd in Frameworks */,
+				BF2D2FFD20E82617008FFFC7 /* JavaScriptCore.framework in Frameworks */,
+				BF2D2FFB20E8260D008FFFC7 /* MessageUI.framework in Frameworks */,
+				BF2D2FF920E82605008FFFC7 /* libicucore.tbd in Frameworks */,
+				BF2D2FF720E825FB008FFFC7 /* libz.tbd in Frameworks */,
+				BF2D2FF520E82590008FFFC7 /* SMS_SDK.framework in Frameworks */,
+				BF2D2FF420E82590008FFFC7 /* MOBFoundation.framework in Frameworks */,
 				5548031D851B5154D934E62A /* libPods-FenTuan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +206,11 @@
 		50C3ECD50F1E600B209F6996 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D2FFE20E82624008FFFC7 /* libstdc++.tbd */,
+				BF2D2FFC20E82617008FFFC7 /* JavaScriptCore.framework */,
+				BF2D2FFA20E8260D008FFFC7 /* MessageUI.framework */,
+				BF2D2FF820E82605008FFFC7 /* libicucore.tbd */,
+				BF2D2FF620E825FB008FFFC7 /* libz.tbd */,
 				93098AF8AFAB39CA557FF08D /* libPods-FenTuan.a */,
 			);
 			name = Frameworks;
@@ -171,6 +223,52 @@
 				72C60D26FACAE156677CC614 /* Pods-FenTuan.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF2D2FEF20E82590008FFFC7 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D2FF020E82590008FFFC7 /* Required */,
+				BF2D2FF220E82590008FFFC7 /* SMSSDK */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		BF2D2FF020E82590008FFFC7 /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D2FF120E82590008FFFC7 /* MOBFoundation.framework */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+		BF2D2FF220E82590008FFFC7 /* SMSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D2FF320E82590008FFFC7 /* SMS_SDK.framework */,
+			);
+			path = SMSSDK;
+			sourceTree = "<group>";
+		};
+		BF2D300020E83338008FFFC7 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D300120E83352008FFFC7 /* FTLoginApi.h */,
+				BF2D300220E83352008FFFC7 /* FTLoginApi.m */,
+				BF2D300420E8335E008FFFC7 /* FTRegisterApi.h */,
+				BF2D300520E8335E008FFFC7 /* FTRegisterApi.m */,
+				BF2D300720E83393008FFFC7 /* FTGetCodeApi.h */,
+				BF2D300820E83393008FFFC7 /* FTGetCodeApi.m */,
+				BF2D300A20E833C1008FFFC7 /* FTBindPhoneApi.h */,
+				BF2D300B20E833C1008FFFC7 /* FTBindPhoneApi.m */,
+				BF2D300D20E833D1008FFFC7 /* FTUpdatePwdApi.h */,
+				BF2D300E20E833D1008FFFC7 /* FTUpdatePwdApi.m */,
+				BF2D301020E83ED3008FFFC7 /* FTFindPwdApi.h */,
+				BF2D301120E83ED3008FFFC7 /* FTFindPwdApi.m */,
+				BF2D301320E8422E008FFFC7 /* FTPerfectInfoApi.h */,
+				BF2D301420E8422E008FFFC7 /* FTPerfectInfoApi.m */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 		BF30C90020E6E98800A5FCA2 = {
@@ -287,6 +385,7 @@
 		BF30C92B20E6ECCA00A5FCA2 /* LSF */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D300020E83338008FFFC7 /* Api */,
 				BF30C92C20E6ECCA00A5FCA2 /* Model */,
 				BF30C92D20E6ECCA00A5FCA2 /* View */,
 				BF30C92F20E6ECCA00A5FCA2 /* ViewModel */,
@@ -327,6 +426,9 @@
 				BF30C96D20E6F13F00A5FCA2 /* FTBindPhoneVC.h */,
 				BF30C96E20E6F13F00A5FCA2 /* FTBindPhoneVC.m */,
 				BF30C96F20E6F13F00A5FCA2 /* FTBindPhoneVC.xib */,
+				BF2D2FEA20E81801008FFFC7 /* FTAgreementVC.h */,
+				BF2D2FEB20E81801008FFFC7 /* FTAgreementVC.m */,
+				BF2D2FEC20E81801008FFFC7 /* FTAgreementVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -518,6 +620,7 @@
 		BF30C94520E6ECCB00A5FCA2 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D2FEF20E82590008FFFC7 /* SDK */,
 				BF30C97520E6FCC100A5FCA2 /* ZJScrollPageView */,
 				BF30C99B20E6FCC200A5FCA2 /* EmptyDataSet */,
 				BF30C98720E6FCC100A5FCA2 /* YTKNetwork */,
@@ -656,6 +759,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2D2FEE20E81801008FFFC7 /* FTAgreementVC.xib in Resources */,
 				BF30C91920E6E98800A5FCA2 /* LaunchScreen.storyboard in Resources */,
 				BF30C96C20E6F12C00A5FCA2 /* FTEditVC.xib in Resources */,
 				BF30C96720E6F10C00A5FCA2 /* FTFindPwdVC.xib in Resources */,
@@ -719,12 +823,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2D301220E83ED3008FFFC7 /* FTFindPwdApi.m in Sources */,
+				BF2D2FED20E81801008FFFC7 /* FTAgreementVC.m in Sources */,
 				BF30C9A620E6FCC200A5FCA2 /* YTKBaseRequest.m in Sources */,
 				BF30C9B720E6FCE400A5FCA2 /* UIButton+POImagePosition.m in Sources */,
 				BF30C9AA20E6FCC200A5FCA2 /* YTKChainRequestAgent.m in Sources */,
 				BF30C99F20E6FCC200A5FCA2 /* UIViewController+ZJScrollPageController.m in Sources */,
 				BF30C94920E6F01300A5FCA2 /* BaseVC.m in Sources */,
+				BF2D300320E83352008FFFC7 /* FTLoginApi.m in Sources */,
+				BF2D300C20E833C1008FFFC7 /* FTBindPhoneApi.m in Sources */,
 				BF30C9A420E6FCC200A5FCA2 /* ZJSegmentStyle.m in Sources */,
+				BF2D300920E83393008FFFC7 /* FTGetCodeApi.m in Sources */,
 				BF30C94C20E6F03D00A5FCA2 /* FTHomeVC.m in Sources */,
 				BF30C96B20E6F12C00A5FCA2 /* FTEditVC.m in Sources */,
 				BF30C97420E6F42F00A5FCA2 /* FTBaseTabbarVC.m in Sources */,
@@ -737,6 +846,7 @@
 				BF30C91C20E6E98800A5FCA2 /* main.m in Sources */,
 				BF30C9A920E6FCC200A5FCA2 /* YTKChainRequest.m in Sources */,
 				BF30C9A320E6FCC200A5FCA2 /* ZJScrollSegmentView.m in Sources */,
+				BF2D300620E8335E008FFFC7 /* FTRegisterApi.m in Sources */,
 				BF30C97020E6F13F00A5FCA2 /* FTBindPhoneVC.m in Sources */,
 				BF30C95C20E6F0D500A5FCA2 /* FTLoginVC.m in Sources */,
 				BF30C9A020E6FCC200A5FCA2 /* ZJCollectionView.m in Sources */,
@@ -745,11 +855,13 @@
 				BF30C9B820E6FCE400A5FCA2 /* UIViewController+LCENavigationBar.m in Sources */,
 				BF30C95520E6F09E00A5FCA2 /* FTSettingVC.m in Sources */,
 				BF30C96620E6F10C00A5FCA2 /* FTFindPwdVC.m in Sources */,
+				BF2D300F20E833D1008FFFC7 /* FTUpdatePwdApi.m in Sources */,
 				BF30C9AB20E6FCC200A5FCA2 /* YTKNetworkAgent.m in Sources */,
 				BF30C9B620E6FCE400A5FCA2 /* UIButton+countDown.m in Sources */,
 				BF30C90E20E6E98800A5FCA2 /* AppDelegate.m in Sources */,
 				BF30C95820E6F0BA00A5FCA2 /* FTStoreVC.m in Sources */,
 				BF30C9AC20E6FCC200A5FCA2 /* YTKNetworkConfig.m in Sources */,
+				BF2D301520E8422E008FFFC7 /* FTPerfectInfoApi.m in Sources */,
 				BF30C9A520E6FCC200A5FCA2 /* ZJTitleView.m in Sources */,
 				BF30C95220E6F08A00A5FCA2 /* FTRecommendVC.m in Sources */,
 				BF30C96120E6F0F900A5FCA2 /* FTRegsiterVC.m in Sources */,
@@ -895,11 +1007,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FenTuan/Vender/SDK/Required",
+					"$(PROJECT_DIR)/FenTuan/Vender/SDK/SMSSDK",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FenTuan/PrefixHeader.pch";
 				INFOPLIST_FILE = FenTuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bailing.FenTuan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.fentuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -912,11 +1029,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FenTuan/Vender/SDK/Required",
+					"$(PROJECT_DIR)/FenTuan/Vender/SDK/SMSSDK",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FenTuan/PrefixHeader.pch";
 				INFOPLIST_FILE = FenTuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bailing.FenTuan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.fentuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
