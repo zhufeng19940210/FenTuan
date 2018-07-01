@@ -15,7 +15,13 @@
     [super viewDidLoad];
     self.navigationController.navigationBar.barTintColor = MainThemeColor;
     self.view.backgroundColor = MainThemeColor;
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(wxLoginSuccess) name:@"wxlogin" object:nil];
 }
+-(void)wxLoginSuccess
+{
+    
+}
+
 #pragma mark 登录
 - (IBAction)actionLoginBtn:(UIButton *)sender
 {
@@ -24,7 +30,23 @@
 #pragma mark 微信登录
 - (IBAction)actionWeChatBtn:(UIButton *)sender
 {
-    NSLog(@"微信注册");
+    ///step1:判断是否安装了客户端
+    if ([WXApi isWXAppInstalled]) {
+        SendAuthReq *req = [[SendAuthReq alloc] init];
+        req.scope = @"snsapi_userinfo";
+        req.state = @"App";
+        [WXApi sendReq:req];
+    }
+    else {
+        [self setupAlertController];
+    }
+}
+-(void)setupAlertController
+{
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"您先安装微信客户端?" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
+    [alertController addAction:cancelAction];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 #pragma mark 手机注册
 - (IBAction)actionRegisterBtn:(UIButton *)sender

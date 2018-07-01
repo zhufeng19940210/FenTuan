@@ -41,7 +41,6 @@
         [SVProgressHUD showInfoWithStatus:@"手机号码有误"];
         return;
     }
-    
     FTGetCodeApiParam *param = [[FTGetCodeApiParam alloc]init];
     param.phone = _tf_phone.text;
     

@@ -24,6 +24,11 @@
 		BF2D300F20E833D1008FFFC7 /* FTUpdatePwdApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300E20E833D1008FFFC7 /* FTUpdatePwdApi.m */; };
 		BF2D301220E83ED3008FFFC7 /* FTFindPwdApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D301120E83ED3008FFFC7 /* FTFindPwdApi.m */; };
 		BF2D301520E8422E008FFFC7 /* FTPerfectInfoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D301420E8422E008FFFC7 /* FTPerfectInfoApi.m */; };
+		BF2D301720E86575008FFFC7 /* FTHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D301620E86575008FFFC7 /* FTHomeVC.xib */; };
+		BF2D301920E86584008FFFC7 /* FTNoticeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D301820E86584008FFFC7 /* FTNoticeVC.xib */; };
+		BF2D301B20E86590008FFFC7 /* FTRecommendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D301A20E86590008FFFC7 /* FTRecommendVC.xib */; };
+		BF2D301D20E8659B008FFFC7 /* FTSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D301C20E8659B008FFFC7 /* FTSettingVC.xib */; };
+		BF2D301F20E865A7008FFFC7 /* FTStoreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D301E20E865A7008FFFC7 /* FTStoreVC.xib */; };
 		BF30C90E20E6E98800A5FCA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C90D20E6E98800A5FCA2 /* AppDelegate.m */; };
 		BF30C91420E6E98800A5FCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF30C91220E6E98800A5FCA2 /* Main.storyboard */; };
 		BF30C91620E6E98800A5FCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF30C91520E6E98800A5FCA2 /* Assets.xcassets */; };
@@ -98,6 +103,11 @@
 		BF2D301120E83ED3008FFFC7 /* FTFindPwdApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFindPwdApi.m; sourceTree = "<group>"; };
 		BF2D301320E8422E008FFFC7 /* FTPerfectInfoApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPerfectInfoApi.h; sourceTree = "<group>"; };
 		BF2D301420E8422E008FFFC7 /* FTPerfectInfoApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPerfectInfoApi.m; sourceTree = "<group>"; };
+		BF2D301620E86575008FFFC7 /* FTHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTHomeVC.xib; sourceTree = "<group>"; };
+		BF2D301820E86584008FFFC7 /* FTNoticeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTNoticeVC.xib; sourceTree = "<group>"; };
+		BF2D301A20E86590008FFFC7 /* FTRecommendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTRecommendVC.xib; sourceTree = "<group>"; };
+		BF2D301C20E8659B008FFFC7 /* FTSettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTSettingVC.xib; sourceTree = "<group>"; };
+		BF2D301E20E865A7008FFFC7 /* FTStoreVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTStoreVC.xib; sourceTree = "<group>"; };
 		BF30C90920E6E98800A5FCA2 /* FenTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF30C90C20E6E98800A5FCA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF30C90D20E6E98800A5FCA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -371,6 +381,7 @@
 			children = (
 				BF30C94A20E6F03D00A5FCA2 /* FTHomeVC.h */,
 				BF30C94B20E6F03D00A5FCA2 /* FTHomeVC.m */,
+				BF2D301620E86575008FFFC7 /* FTHomeVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -470,6 +481,7 @@
 			children = (
 				BF30C94D20E6F06E00A5FCA2 /* FTNoticeVC.h */,
 				BF30C94E20E6F06E00A5FCA2 /* FTNoticeVC.m */,
+				BF2D301820E86584008FFFC7 /* FTNoticeVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -511,6 +523,7 @@
 			children = (
 				BF30C95020E6F08A00A5FCA2 /* FTRecommendVC.h */,
 				BF30C95120E6F08A00A5FCA2 /* FTRecommendVC.m */,
+				BF2D301A20E86590008FFFC7 /* FTRecommendVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -552,6 +565,7 @@
 			children = (
 				BF30C95320E6F09E00A5FCA2 /* FTSettingVC.h */,
 				BF30C95420E6F09E00A5FCA2 /* FTSettingVC.m */,
+				BF2D301C20E8659B008FFFC7 /* FTSettingVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -593,6 +607,7 @@
 			children = (
 				BF30C95620E6F0BA00A5FCA2 /* FTStoreVC.h */,
 				BF30C95720E6F0BA00A5FCA2 /* FTStoreVC.m */,
+				BF2D301E20E865A7008FFFC7 /* FTStoreVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -760,14 +775,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2D2FEE20E81801008FFFC7 /* FTAgreementVC.xib in Resources */,
+				BF2D301920E86584008FFFC7 /* FTNoticeVC.xib in Resources */,
 				BF30C91920E6E98800A5FCA2 /* LaunchScreen.storyboard in Resources */,
 				BF30C96C20E6F12C00A5FCA2 /* FTEditVC.xib in Resources */,
 				BF30C96720E6F10C00A5FCA2 /* FTFindPwdVC.xib in Resources */,
 				BF30C91620E6E98800A5FCA2 /* Assets.xcassets in Resources */,
 				BF30C97120E6F13F00A5FCA2 /* FTBindPhoneVC.xib in Resources */,
 				BF30C95D20E6F0D500A5FCA2 /* FTLoginVC.xib in Resources */,
+				BF2D301720E86575008FFFC7 /* FTHomeVC.xib in Resources */,
+				BF2D301D20E8659B008FFFC7 /* FTSettingVC.xib in Resources */,
 				BF30C91420E6E98800A5FCA2 /* Main.storyboard in Resources */,
 				BF30C96220E6F0F900A5FCA2 /* FTRegsiterVC.xib in Resources */,
+				BF2D301F20E865A7008FFFC7 /* FTStoreVC.xib in Resources */,
+				BF2D301B20E86590008FFFC7 /* FTRecommendVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

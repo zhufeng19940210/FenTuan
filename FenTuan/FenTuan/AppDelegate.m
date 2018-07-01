@@ -4,7 +4,7 @@
 //  Copyright © 2018年 zhufeng. All rights reserved.
 #import "AppDelegate.h"
 #import "FTLoginVC.h"
-@interface AppDelegate ()
+@interface AppDelegate ()<WXApiDelegate>
 @end
 @implementation AppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -20,11 +20,12 @@
 }
 #pragma mark 三方库的初始化
 -(void)setupBaseInitializeWithOptions
-{
+{   //微信
+    [WXApi registerApp:@"wx46b14ff64afefa78"];
     [Bugtags startWithAppKey:@"b7f0f5b36e8f02e6d2564bd2b7eb3938" invocationEvent:BTGInvocationEventBubble];
     //Network Config
     YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
-    config.baseUrl = @"http://47.98.155.149:8181";
+    config.baseUrl = @"http://47.98.155.149:8088";
     // SVProgressHUD
     //这里设置下样式
     [SVProgressHUD setDefaultStyle:SVProgressHUDStyleCustom];
@@ -43,6 +44,46 @@
     //IQKeyboardManager
     [IQKeyboardManager sharedManager].enableAutoToolbar = NO;
     [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
+}
+// 这个方法是用于从微信返回第三方App
+//9.0的方法了
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    [WXApi handleOpenURL:url delegate:self];
+    return YES;
+}
+// NOTE: 9.0以后使用新API接口
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options
+{
+    [WXApi handleOpenURL:url delegate:self];
+    return YES;
+}
+// 授权后回调
+- (void)onResp:(BaseResp *)resp {
+    // 向微信请求授权后,得到响应结果
+    if ([resp isKindOfClass:[SendAuthResp class]]) {
+        NSLog(@"resp:%@",resp);
+        SendAuthResp *rep = (SendAuthResp *)resp;
+        if (rep.errCode== 0) {
+            NSLog(@"rep:%@",rep);
+            AFHTTPSessionManager *manager =[AFHTTPSessionManager  manager];
+            manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+            NSMutableDictionary *param = [NSMutableDictionary dictionary];
+            param[@"appid"] = @"";
+            param[@"secret"] = @"";
+            param[@"code"] = @"";
+            param[@"grant_type"] = @"authorization_code";
+            [manager GET:@"https://api.weixin.qq.com/sns/oauth2/access_token" parameters:param progress:^(NSProgress * _Nonnull downloadProgress) {
+            } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+                NSLog(@"responseObject:%@",responseObject);
+                //这里去获取那些字段的值
+                //发送一个通知出去了
+                [[NSNotificationCenter defaultCenter]postNotificationName:WXLOGINSUCCESS object:nil];
+            } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                [SVProgressHUD showErrorWithStatus:@"微信获取失败"];
+                return;
+            }];
+        }
+    }
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
 
