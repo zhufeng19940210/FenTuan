@@ -8,6 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		5548031D851B5154D934E62A /* libPods-FenTuan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93098AF8AFAB39CA557FF08D /* libPods-FenTuan.a */; };
+		BF15DE9620EAE12E0043BCB5 /* FTInviteFriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF15DE9420EAE12E0043BCB5 /* FTInviteFriendVC.m */; };
+		BF15DE9720EAE12E0043BCB5 /* FTInviteFriendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF15DE9520EAE12E0043BCB5 /* FTInviteFriendVC.xib */; };
+		BF15DE9C20EAE3330043BCB5 /* FTInveteHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF15DE9A20EAE3330043BCB5 /* FTInveteHeaderCell.m */; };
+		BF15DE9D20EAE3330043BCB5 /* FTInveteHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF15DE9B20EAE3330043BCB5 /* FTInveteHeaderCell.xib */; };
+		BF15DEA120EAE34A0043BCB5 /* FTInveteContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF15DE9F20EAE34A0043BCB5 /* FTInveteContentCell.m */; };
+		BF15DEA220EAE34A0043BCB5 /* FTInveteContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF15DEA020EAE34A0043BCB5 /* FTInveteContentCell.xib */; };
+		BF28DF7A20EA874C00780C32 /* FTUpdatePwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DF7820EA874C00780C32 /* FTUpdatePwdVC.m */; };
+		BF28DF7B20EA874C00780C32 /* FTUpdatePwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DF7920EA874C00780C32 /* FTUpdatePwdVC.xib */; };
+		BF28DF7F20EA8C5700780C32 /* FTMineAvatarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DF7D20EA8C5700780C32 /* FTMineAvatarCell.m */; };
+		BF28DF8020EA8C5700780C32 /* FTMineAvatarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DF7E20EA8C5700780C32 /* FTMineAvatarCell.xib */; };
+		BF28DF8420EA8CC100780C32 /* FTPartnerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DF8220EA8CC100780C32 /* FTPartnerCell.m */; };
+		BF28DF8520EA8CC100780C32 /* FTPartnerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DF8320EA8CC100780C32 /* FTPartnerCell.xib */; };
+		BF28DF8920EA8CE500780C32 /* FTDetailSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DF8720EA8CE500780C32 /* FTDetailSubCell.m */; };
+		BF28DF8A20EA8CE500780C32 /* FTDetailSubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DF8820EA8CE500780C32 /* FTDetailSubCell.xib */; };
+		BF28DF8E20EA8D1D00780C32 /* FTSubFunCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DF8C20EA8D1D00780C32 /* FTSubFunCell.m */; };
+		BF28DF8F20EA8D1D00780C32 /* FTSubFunCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DF8D20EA8D1D00780C32 /* FTSubFunCell.xib */; };
+		BF28DF9420EA921600780C32 /* ZFUpDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DF9120EA921500780C32 /* ZFUpDownButton.m */; };
+		BF28DF9520EA921600780C32 /* UIVieW+myFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DF9320EA921600780C32 /* UIVieW+myFrame.m */; };
+		BF28DF9B20EA9FEA00780C32 /* FTFunSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DF9920EA9FEA00780C32 /* FTFunSubCell.m */; };
+		BF28DF9C20EA9FEA00780C32 /* FTFunSubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DF9A20EA9FEA00780C32 /* FTFunSubCell.xib */; };
+		BF28DF9F20EAC61800780C32 /* FTNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DF9E20EAC61800780C32 /* FTNetWorkTool.m */; };
+		BF28DFA320EAD2C900780C32 /* FTMySettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DFA120EAD2C800780C32 /* FTMySettingVC.m */; };
+		BF28DFA420EAD2C900780C32 /* FTMySettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DFA220EAD2C800780C32 /* FTMySettingVC.xib */; };
+		BF28DFAA20EAD34A00780C32 /* FTMyHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DFA820EAD34A00780C32 /* FTMyHeaderCell.m */; };
+		BF28DFAB20EAD34A00780C32 /* FTMyHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DFA920EAD34A00780C32 /* FTMyHeaderCell.xib */; };
+		BF28DFAF20EAD38800780C32 /* FTMyDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DFAD20EAD38800780C32 /* FTMyDetailCell.m */; };
+		BF28DFB020EAD38800780C32 /* FTMyDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DFAE20EAD38800780C32 /* FTMyDetailCell.xib */; };
+		BF28DFB420EAD39B00780C32 /* FTMyVersionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DFB220EAD39B00780C32 /* FTMyVersionCell.m */; };
+		BF28DFB520EAD39B00780C32 /* FTMyVersionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DFB320EAD39B00780C32 /* FTMyVersionCell.xib */; };
+		BF28DFB920EAD55400780C32 /* FTMyLogoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DFB720EAD55400780C32 /* FTMyLogoutCell.m */; };
+		BF28DFBA20EAD55400780C32 /* FTMyLogoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF28DFB820EAD55400780C32 /* FTMyLogoutCell.xib */; };
+		BF28DFBD20EAD7F800780C32 /* FTTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28DFBC20EAD7F800780C32 /* FTTypeModel.m */; };
 		BF2D2FED20E81801008FFFC7 /* FTAgreementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D2FEB20E81801008FFFC7 /* FTAgreementVC.m */; };
 		BF2D2FEE20E81801008FFFC7 /* FTAgreementVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D2FEC20E81801008FFFC7 /* FTAgreementVC.xib */; };
 		BF2D2FF420E82590008FFFC7 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FF120E82590008FFFC7 /* MOBFoundation.framework */; };
@@ -17,18 +49,12 @@
 		BF2D2FFB20E8260D008FFFC7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FFA20E8260D008FFFC7 /* MessageUI.framework */; };
 		BF2D2FFD20E82617008FFFC7 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FFC20E82617008FFFC7 /* JavaScriptCore.framework */; };
 		BF2D2FFF20E82624008FFFC7 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D2FFE20E82624008FFFC7 /* libstdc++.tbd */; };
-		BF2D300320E83352008FFFC7 /* FTLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300220E83352008FFFC7 /* FTLoginApi.m */; };
-		BF2D300620E8335E008FFFC7 /* FTRegisterApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300520E8335E008FFFC7 /* FTRegisterApi.m */; };
-		BF2D300920E83393008FFFC7 /* FTGetCodeApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300820E83393008FFFC7 /* FTGetCodeApi.m */; };
-		BF2D300C20E833C1008FFFC7 /* FTBindPhoneApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300B20E833C1008FFFC7 /* FTBindPhoneApi.m */; };
-		BF2D300F20E833D1008FFFC7 /* FTUpdatePwdApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D300E20E833D1008FFFC7 /* FTUpdatePwdApi.m */; };
-		BF2D301220E83ED3008FFFC7 /* FTFindPwdApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D301120E83ED3008FFFC7 /* FTFindPwdApi.m */; };
-		BF2D301520E8422E008FFFC7 /* FTPerfectInfoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D301420E8422E008FFFC7 /* FTPerfectInfoApi.m */; };
-		BF2D301720E86575008FFFC7 /* FTHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D301620E86575008FFFC7 /* FTHomeVC.xib */; };
 		BF2D301920E86584008FFFC7 /* FTNoticeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D301820E86584008FFFC7 /* FTNoticeVC.xib */; };
-		BF2D301B20E86590008FFFC7 /* FTRecommendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D301A20E86590008FFFC7 /* FTRecommendVC.xib */; };
-		BF2D301D20E8659B008FFFC7 /* FTSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D301C20E8659B008FFFC7 /* FTSettingVC.xib */; };
 		BF2D301F20E865A7008FFFC7 /* FTStoreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2D301E20E865A7008FFFC7 /* FTStoreVC.xib */; };
+		BF2EDD8220EB061E00194970 /* FTBanaerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2EDD8020EB061E00194970 /* FTBanaerCell.m */; };
+		BF2EDD8320EB061E00194970 /* FTBanaerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2EDD8120EB061E00194970 /* FTBanaerCell.xib */; };
+		BF2EDD8720EB063700194970 /* FTProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2EDD8520EB063700194970 /* FTProductCell.m */; };
+		BF2EDD8820EB063700194970 /* FTProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2EDD8620EB063700194970 /* FTProductCell.xib */; };
 		BF30C90E20E6E98800A5FCA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C90D20E6E98800A5FCA2 /* AppDelegate.m */; };
 		BF30C91420E6E98800A5FCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF30C91220E6E98800A5FCA2 /* Main.storyboard */; };
 		BF30C91620E6E98800A5FCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF30C91520E6E98800A5FCA2 /* Assets.xcassets */; };
@@ -73,12 +99,80 @@
 		BF30C9B720E6FCE400A5FCA2 /* UIButton+POImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C9B220E6FCE300A5FCA2 /* UIButton+POImagePosition.m */; };
 		BF30C9B820E6FCE400A5FCA2 /* UIViewController+LCENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C9B320E6FCE300A5FCA2 /* UIViewController+LCENavigationBar.m */; };
 		BF30C9BB20E6FD0900A5FCA2 /* FTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C9BA20E6FD0900A5FCA2 /* FTUtil.m */; };
+		BF3FF11F20EBF03400316366 /* FTReHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF11D20EBF03400316366 /* FTReHeaderCell.m */; };
+		BF3FF12020EBF03400316366 /* FTReHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3FF11E20EBF03400316366 /* FTReHeaderCell.xib */; };
+		BF3FF12920EBF0F000316366 /* FTRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF12720EBF0F000316366 /* FTRecommendCell.m */; };
+		BF3FF12A20EBF0F000316366 /* FTRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3FF12820EBF0F000316366 /* FTRecommendCell.xib */; };
+		BF3FF12D20EBF3F400316366 /* FTReTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF12C20EBF3F400316366 /* FTReTypeView.m */; };
+		BF3FF12F20EBF3FD00316366 /* FTReTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3FF12E20EBF3FD00316366 /* FTReTypeView.xib */; };
+		BF3FF13320EC160F00316366 /* FTReSelectTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF13120EC160F00316366 /* FTReSelectTypeCell.m */; };
+		BF3FF13420EC160F00316366 /* FTReSelectTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3FF13220EC160F00316366 /* FTReSelectTypeCell.xib */; };
+		BF3FF19020EC4FBB00316366 /* FSPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF18E20EC4FBB00316366 /* FSPageContentView.m */; };
+		BF3FF19320EC500C00316366 /* FTProductsFeaturedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF19220EC500C00316366 /* FTProductsFeaturedVC.m */; };
+		BF3FF19620EC504300316366 /* FTMarketingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF19520EC504300316366 /* FTMarketingVC.m */; };
+		BF3FF19920EC505A00316366 /* FTNoviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF19820EC505900316366 /* FTNoviceVC.m */; };
+		BF3FF19C20EC509900316366 /* FSBottomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF19A20EC509800316366 /* FSBottomTableViewCell.m */; };
+		BF3FF19F20EC50DC00316366 /* FSBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF19D20EC50DB00316366 /* FSBaseTableView.m */; };
+		BF3FF1A220EC52BC00316366 /* FTScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF1A120EC52BC00316366 /* FTScrollViewVC.m */; };
+		BFBAD10820ED52570084B4EA /* FSBaseTopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBAD10720ED52570084B4EA /* FSBaseTopTableViewCell.m */; };
+		BFBAD11320ED7A870084B4EA /* FTResponeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBAD11220ED7A870084B4EA /* FTResponeModel.m */; };
+		BFBAD11620ED7B0B0084B4EA /* FTUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBAD11520ED7B0B0084B4EA /* FTUserModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12DD582F4887FA56A595964F /* Pods-FenTuan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenTuan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FenTuan/Pods-FenTuan.debug.xcconfig"; sourceTree = "<group>"; };
 		72C60D26FACAE156677CC614 /* Pods-FenTuan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenTuan.release.xcconfig"; path = "Pods/Target Support Files/Pods-FenTuan/Pods-FenTuan.release.xcconfig"; sourceTree = "<group>"; };
 		93098AF8AFAB39CA557FF08D /* libPods-FenTuan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FenTuan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF15DE9320EAE12E0043BCB5 /* FTInviteFriendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTInviteFriendVC.h; sourceTree = "<group>"; };
+		BF15DE9420EAE12E0043BCB5 /* FTInviteFriendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTInviteFriendVC.m; sourceTree = "<group>"; };
+		BF15DE9520EAE12E0043BCB5 /* FTInviteFriendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTInviteFriendVC.xib; sourceTree = "<group>"; };
+		BF15DE9920EAE3330043BCB5 /* FTInveteHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTInveteHeaderCell.h; sourceTree = "<group>"; };
+		BF15DE9A20EAE3330043BCB5 /* FTInveteHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTInveteHeaderCell.m; sourceTree = "<group>"; };
+		BF15DE9B20EAE3330043BCB5 /* FTInveteHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTInveteHeaderCell.xib; sourceTree = "<group>"; };
+		BF15DE9E20EAE34A0043BCB5 /* FTInveteContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTInveteContentCell.h; sourceTree = "<group>"; };
+		BF15DE9F20EAE34A0043BCB5 /* FTInveteContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTInveteContentCell.m; sourceTree = "<group>"; };
+		BF15DEA020EAE34A0043BCB5 /* FTInveteContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTInveteContentCell.xib; sourceTree = "<group>"; };
+		BF28DF7720EA874C00780C32 /* FTUpdatePwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTUpdatePwdVC.h; sourceTree = "<group>"; };
+		BF28DF7820EA874C00780C32 /* FTUpdatePwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTUpdatePwdVC.m; sourceTree = "<group>"; };
+		BF28DF7920EA874C00780C32 /* FTUpdatePwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTUpdatePwdVC.xib; sourceTree = "<group>"; };
+		BF28DF7C20EA8C5700780C32 /* FTMineAvatarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMineAvatarCell.h; sourceTree = "<group>"; };
+		BF28DF7D20EA8C5700780C32 /* FTMineAvatarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMineAvatarCell.m; sourceTree = "<group>"; };
+		BF28DF7E20EA8C5700780C32 /* FTMineAvatarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTMineAvatarCell.xib; sourceTree = "<group>"; };
+		BF28DF8120EA8CC100780C32 /* FTPartnerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPartnerCell.h; sourceTree = "<group>"; };
+		BF28DF8220EA8CC100780C32 /* FTPartnerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPartnerCell.m; sourceTree = "<group>"; };
+		BF28DF8320EA8CC100780C32 /* FTPartnerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTPartnerCell.xib; sourceTree = "<group>"; };
+		BF28DF8620EA8CE500780C32 /* FTDetailSubCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTDetailSubCell.h; sourceTree = "<group>"; };
+		BF28DF8720EA8CE500780C32 /* FTDetailSubCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTDetailSubCell.m; sourceTree = "<group>"; };
+		BF28DF8820EA8CE500780C32 /* FTDetailSubCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTDetailSubCell.xib; sourceTree = "<group>"; };
+		BF28DF8B20EA8D1D00780C32 /* FTSubFunCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSubFunCell.h; sourceTree = "<group>"; };
+		BF28DF8C20EA8D1D00780C32 /* FTSubFunCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSubFunCell.m; sourceTree = "<group>"; };
+		BF28DF8D20EA8D1D00780C32 /* FTSubFunCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTSubFunCell.xib; sourceTree = "<group>"; };
+		BF28DF9020EA921500780C32 /* ZFUpDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFUpDownButton.h; sourceTree = "<group>"; };
+		BF28DF9120EA921500780C32 /* ZFUpDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFUpDownButton.m; sourceTree = "<group>"; };
+		BF28DF9220EA921500780C32 /* UIVieW+myFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIVieW+myFrame.h"; sourceTree = "<group>"; };
+		BF28DF9320EA921600780C32 /* UIVieW+myFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIVieW+myFrame.m"; sourceTree = "<group>"; };
+		BF28DF9820EA9FEA00780C32 /* FTFunSubCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFunSubCell.h; sourceTree = "<group>"; };
+		BF28DF9920EA9FEA00780C32 /* FTFunSubCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFunSubCell.m; sourceTree = "<group>"; };
+		BF28DF9A20EA9FEA00780C32 /* FTFunSubCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTFunSubCell.xib; sourceTree = "<group>"; };
+		BF28DF9D20EAC61800780C32 /* FTNetWorkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTNetWorkTool.h; sourceTree = "<group>"; };
+		BF28DF9E20EAC61800780C32 /* FTNetWorkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTNetWorkTool.m; sourceTree = "<group>"; };
+		BF28DFA020EAD2C800780C32 /* FTMySettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMySettingVC.h; sourceTree = "<group>"; };
+		BF28DFA120EAD2C800780C32 /* FTMySettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMySettingVC.m; sourceTree = "<group>"; };
+		BF28DFA220EAD2C800780C32 /* FTMySettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTMySettingVC.xib; sourceTree = "<group>"; };
+		BF28DFA720EAD34A00780C32 /* FTMyHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMyHeaderCell.h; sourceTree = "<group>"; };
+		BF28DFA820EAD34A00780C32 /* FTMyHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMyHeaderCell.m; sourceTree = "<group>"; };
+		BF28DFA920EAD34A00780C32 /* FTMyHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTMyHeaderCell.xib; sourceTree = "<group>"; };
+		BF28DFAC20EAD38800780C32 /* FTMyDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMyDetailCell.h; sourceTree = "<group>"; };
+		BF28DFAD20EAD38800780C32 /* FTMyDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMyDetailCell.m; sourceTree = "<group>"; };
+		BF28DFAE20EAD38800780C32 /* FTMyDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTMyDetailCell.xib; sourceTree = "<group>"; };
+		BF28DFB120EAD39B00780C32 /* FTMyVersionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMyVersionCell.h; sourceTree = "<group>"; };
+		BF28DFB220EAD39B00780C32 /* FTMyVersionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMyVersionCell.m; sourceTree = "<group>"; };
+		BF28DFB320EAD39B00780C32 /* FTMyVersionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTMyVersionCell.xib; sourceTree = "<group>"; };
+		BF28DFB620EAD55400780C32 /* FTMyLogoutCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMyLogoutCell.h; sourceTree = "<group>"; };
+		BF28DFB720EAD55400780C32 /* FTMyLogoutCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMyLogoutCell.m; sourceTree = "<group>"; };
+		BF28DFB820EAD55400780C32 /* FTMyLogoutCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTMyLogoutCell.xib; sourceTree = "<group>"; };
+		BF28DFBB20EAD7F800780C32 /* FTTypeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTTypeModel.h; sourceTree = "<group>"; };
+		BF28DFBC20EAD7F800780C32 /* FTTypeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTTypeModel.m; sourceTree = "<group>"; };
 		BF2D2FEA20E81801008FFFC7 /* FTAgreementVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAgreementVC.h; sourceTree = "<group>"; };
 		BF2D2FEB20E81801008FFFC7 /* FTAgreementVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAgreementVC.m; sourceTree = "<group>"; };
 		BF2D2FEC20E81801008FFFC7 /* FTAgreementVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTAgreementVC.xib; sourceTree = "<group>"; };
@@ -89,25 +183,14 @@
 		BF2D2FFA20E8260D008FFFC7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BF2D2FFC20E82617008FFFC7 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		BF2D2FFE20E82624008FFFC7 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		BF2D300120E83352008FFFC7 /* FTLoginApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTLoginApi.h; sourceTree = "<group>"; };
-		BF2D300220E83352008FFFC7 /* FTLoginApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTLoginApi.m; sourceTree = "<group>"; };
-		BF2D300420E8335E008FFFC7 /* FTRegisterApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRegisterApi.h; sourceTree = "<group>"; };
-		BF2D300520E8335E008FFFC7 /* FTRegisterApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRegisterApi.m; sourceTree = "<group>"; };
-		BF2D300720E83393008FFFC7 /* FTGetCodeApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTGetCodeApi.h; sourceTree = "<group>"; };
-		BF2D300820E83393008FFFC7 /* FTGetCodeApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTGetCodeApi.m; sourceTree = "<group>"; };
-		BF2D300A20E833C1008FFFC7 /* FTBindPhoneApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTBindPhoneApi.h; sourceTree = "<group>"; };
-		BF2D300B20E833C1008FFFC7 /* FTBindPhoneApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBindPhoneApi.m; sourceTree = "<group>"; };
-		BF2D300D20E833D1008FFFC7 /* FTUpdatePwdApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTUpdatePwdApi.h; sourceTree = "<group>"; };
-		BF2D300E20E833D1008FFFC7 /* FTUpdatePwdApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTUpdatePwdApi.m; sourceTree = "<group>"; };
-		BF2D301020E83ED3008FFFC7 /* FTFindPwdApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFindPwdApi.h; sourceTree = "<group>"; };
-		BF2D301120E83ED3008FFFC7 /* FTFindPwdApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFindPwdApi.m; sourceTree = "<group>"; };
-		BF2D301320E8422E008FFFC7 /* FTPerfectInfoApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPerfectInfoApi.h; sourceTree = "<group>"; };
-		BF2D301420E8422E008FFFC7 /* FTPerfectInfoApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPerfectInfoApi.m; sourceTree = "<group>"; };
-		BF2D301620E86575008FFFC7 /* FTHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTHomeVC.xib; sourceTree = "<group>"; };
 		BF2D301820E86584008FFFC7 /* FTNoticeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTNoticeVC.xib; sourceTree = "<group>"; };
-		BF2D301A20E86590008FFFC7 /* FTRecommendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTRecommendVC.xib; sourceTree = "<group>"; };
-		BF2D301C20E8659B008FFFC7 /* FTSettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTSettingVC.xib; sourceTree = "<group>"; };
 		BF2D301E20E865A7008FFFC7 /* FTStoreVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTStoreVC.xib; sourceTree = "<group>"; };
+		BF2EDD7F20EB061E00194970 /* FTBanaerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTBanaerCell.h; sourceTree = "<group>"; };
+		BF2EDD8020EB061E00194970 /* FTBanaerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBanaerCell.m; sourceTree = "<group>"; };
+		BF2EDD8120EB061E00194970 /* FTBanaerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTBanaerCell.xib; sourceTree = "<group>"; };
+		BF2EDD8420EB063700194970 /* FTProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTProductCell.h; sourceTree = "<group>"; };
+		BF2EDD8520EB063700194970 /* FTProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTProductCell.m; sourceTree = "<group>"; };
+		BF2EDD8620EB063700194970 /* FTProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTProductCell.xib; sourceTree = "<group>"; };
 		BF30C90920E6E98800A5FCA2 /* FenTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF30C90C20E6E98800A5FCA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF30C90D20E6E98800A5FCA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -192,6 +275,40 @@
 		BF30C9B920E6FD0900A5FCA2 /* FTUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTUtil.h; sourceTree = "<group>"; };
 		BF30C9BA20E6FD0900A5FCA2 /* FTUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTUtil.m; sourceTree = "<group>"; };
 		BF30C9BC20E6FE1100A5FCA2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF3FF11C20EBF03400316366 /* FTReHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTReHeaderCell.h; sourceTree = "<group>"; };
+		BF3FF11D20EBF03400316366 /* FTReHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTReHeaderCell.m; sourceTree = "<group>"; };
+		BF3FF11E20EBF03400316366 /* FTReHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTReHeaderCell.xib; sourceTree = "<group>"; };
+		BF3FF12620EBF0F000316366 /* FTRecommendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRecommendCell.h; sourceTree = "<group>"; };
+		BF3FF12720EBF0F000316366 /* FTRecommendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRecommendCell.m; sourceTree = "<group>"; };
+		BF3FF12820EBF0F000316366 /* FTRecommendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTRecommendCell.xib; sourceTree = "<group>"; };
+		BF3FF12B20EBF3F400316366 /* FTReTypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTReTypeView.h; sourceTree = "<group>"; };
+		BF3FF12C20EBF3F400316366 /* FTReTypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTReTypeView.m; sourceTree = "<group>"; };
+		BF3FF12E20EBF3FD00316366 /* FTReTypeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTReTypeView.xib; sourceTree = "<group>"; };
+		BF3FF13020EC160F00316366 /* FTReSelectTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTReSelectTypeCell.h; sourceTree = "<group>"; };
+		BF3FF13120EC160F00316366 /* FTReSelectTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTReSelectTypeCell.m; sourceTree = "<group>"; };
+		BF3FF13220EC160F00316366 /* FTReSelectTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTReSelectTypeCell.xib; sourceTree = "<group>"; };
+		BF3FF18E20EC4FBB00316366 /* FSPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPageContentView.m; sourceTree = "<group>"; };
+		BF3FF18F20EC4FBB00316366 /* FSPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPageContentView.h; sourceTree = "<group>"; };
+		BF3FF19120EC500C00316366 /* FTProductsFeaturedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTProductsFeaturedVC.h; sourceTree = "<group>"; };
+		BF3FF19220EC500C00316366 /* FTProductsFeaturedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTProductsFeaturedVC.m; sourceTree = "<group>"; };
+		BF3FF19420EC504300316366 /* FTMarketingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMarketingVC.h; sourceTree = "<group>"; };
+		BF3FF19520EC504300316366 /* FTMarketingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMarketingVC.m; sourceTree = "<group>"; };
+		BF3FF19720EC505900316366 /* FTNoviceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTNoviceVC.h; sourceTree = "<group>"; };
+		BF3FF19820EC505900316366 /* FTNoviceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTNoviceVC.m; sourceTree = "<group>"; };
+		BF3FF19A20EC509800316366 /* FSBottomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBottomTableViewCell.m; sourceTree = "<group>"; };
+		BF3FF19B20EC509900316366 /* FSBottomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBottomTableViewCell.h; sourceTree = "<group>"; };
+		BF3FF19D20EC50DB00316366 /* FSBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseTableView.m; sourceTree = "<group>"; };
+		BF3FF19E20EC50DC00316366 /* FSBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseTableView.h; sourceTree = "<group>"; };
+		BF3FF1A020EC52BC00316366 /* FTScrollViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTScrollViewVC.h; sourceTree = "<group>"; };
+		BF3FF1A120EC52BC00316366 /* FTScrollViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTScrollViewVC.m; sourceTree = "<group>"; };
+		BFBAD10620ED52570084B4EA /* FSBaseTopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseTopTableViewCell.h; sourceTree = "<group>"; };
+		BFBAD10720ED52570084B4EA /* FSBaseTopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseTopTableViewCell.m; sourceTree = "<group>"; };
+		BFBAD10920ED69EC0084B4EA /* FTValueKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTValueKey.h; sourceTree = "<group>"; };
+		BFBAD10A20ED6A070084B4EA /* FTNetWorkURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTNetWorkURL.h; sourceTree = "<group>"; };
+		BFBAD11120ED7A870084B4EA /* FTResponeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTResponeModel.h; sourceTree = "<group>"; };
+		BFBAD11220ED7A870084B4EA /* FTResponeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTResponeModel.m; sourceTree = "<group>"; };
+		BFBAD11420ED7B0B0084B4EA /* FTUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTUserModel.h; sourceTree = "<group>"; };
+		BFBAD11520ED7B0B0084B4EA /* FTUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTUserModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +352,60 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BF15DE9820EAE30B0043BCB5 /* InviteView */ = {
+			isa = PBXGroup;
+			children = (
+				BF15DE9920EAE3330043BCB5 /* FTInveteHeaderCell.h */,
+				BF15DE9A20EAE3330043BCB5 /* FTInveteHeaderCell.m */,
+				BF15DE9B20EAE3330043BCB5 /* FTInveteHeaderCell.xib */,
+				BF15DE9E20EAE34A0043BCB5 /* FTInveteContentCell.h */,
+				BF15DE9F20EAE34A0043BCB5 /* FTInveteContentCell.m */,
+				BF15DEA020EAE34A0043BCB5 /* FTInveteContentCell.xib */,
+			);
+			path = InviteView;
+			sourceTree = "<group>";
+		};
+		BF28DFA520EAD30100780C32 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				BF28DF7C20EA8C5700780C32 /* FTMineAvatarCell.h */,
+				BF28DF7D20EA8C5700780C32 /* FTMineAvatarCell.m */,
+				BF28DF7E20EA8C5700780C32 /* FTMineAvatarCell.xib */,
+				BF28DF8120EA8CC100780C32 /* FTPartnerCell.h */,
+				BF28DF8220EA8CC100780C32 /* FTPartnerCell.m */,
+				BF28DF8320EA8CC100780C32 /* FTPartnerCell.xib */,
+				BF28DF8620EA8CE500780C32 /* FTDetailSubCell.h */,
+				BF28DF8720EA8CE500780C32 /* FTDetailSubCell.m */,
+				BF28DF8820EA8CE500780C32 /* FTDetailSubCell.xib */,
+				BF28DF8B20EA8D1D00780C32 /* FTSubFunCell.h */,
+				BF28DF8C20EA8D1D00780C32 /* FTSubFunCell.m */,
+				BF28DF8D20EA8D1D00780C32 /* FTSubFunCell.xib */,
+				BF28DF9820EA9FEA00780C32 /* FTFunSubCell.h */,
+				BF28DF9920EA9FEA00780C32 /* FTFunSubCell.m */,
+				BF28DF9A20EA9FEA00780C32 /* FTFunSubCell.xib */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
+		BF28DFA620EAD31F00780C32 /* LogoutView */ = {
+			isa = PBXGroup;
+			children = (
+				BF28DFA720EAD34A00780C32 /* FTMyHeaderCell.h */,
+				BF28DFA820EAD34A00780C32 /* FTMyHeaderCell.m */,
+				BF28DFA920EAD34A00780C32 /* FTMyHeaderCell.xib */,
+				BF28DFAC20EAD38800780C32 /* FTMyDetailCell.h */,
+				BF28DFAD20EAD38800780C32 /* FTMyDetailCell.m */,
+				BF28DFAE20EAD38800780C32 /* FTMyDetailCell.xib */,
+				BF28DFB120EAD39B00780C32 /* FTMyVersionCell.h */,
+				BF28DFB220EAD39B00780C32 /* FTMyVersionCell.m */,
+				BF28DFB320EAD39B00780C32 /* FTMyVersionCell.xib */,
+				BF28DFB620EAD55400780C32 /* FTMyLogoutCell.h */,
+				BF28DFB720EAD55400780C32 /* FTMyLogoutCell.m */,
+				BF28DFB820EAD55400780C32 /* FTMyLogoutCell.xib */,
+			);
+			path = LogoutView;
+			sourceTree = "<group>";
+		};
 		BF2D2FEF20E82590008FFFC7 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,27 +429,6 @@
 				BF2D2FF320E82590008FFFC7 /* SMS_SDK.framework */,
 			);
 			path = SMSSDK;
-			sourceTree = "<group>";
-		};
-		BF2D300020E83338008FFFC7 /* Api */ = {
-			isa = PBXGroup;
-			children = (
-				BF2D300120E83352008FFFC7 /* FTLoginApi.h */,
-				BF2D300220E83352008FFFC7 /* FTLoginApi.m */,
-				BF2D300420E8335E008FFFC7 /* FTRegisterApi.h */,
-				BF2D300520E8335E008FFFC7 /* FTRegisterApi.m */,
-				BF2D300720E83393008FFFC7 /* FTGetCodeApi.h */,
-				BF2D300820E83393008FFFC7 /* FTGetCodeApi.m */,
-				BF2D300A20E833C1008FFFC7 /* FTBindPhoneApi.h */,
-				BF2D300B20E833C1008FFFC7 /* FTBindPhoneApi.m */,
-				BF2D300D20E833D1008FFFC7 /* FTUpdatePwdApi.h */,
-				BF2D300E20E833D1008FFFC7 /* FTUpdatePwdApi.m */,
-				BF2D301020E83ED3008FFFC7 /* FTFindPwdApi.h */,
-				BF2D301120E83ED3008FFFC7 /* FTFindPwdApi.m */,
-				BF2D301320E8422E008FFFC7 /* FTPerfectInfoApi.h */,
-				BF2D301420E8422E008FFFC7 /* FTPerfectInfoApi.m */,
-			);
-			path = Api;
 			sourceTree = "<group>";
 		};
 		BF30C90020E6E98800A5FCA2 = {
@@ -372,6 +522,12 @@
 		BF30C92820E6ECCA00A5FCA2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF2EDD7F20EB061E00194970 /* FTBanaerCell.h */,
+				BF2EDD8020EB061E00194970 /* FTBanaerCell.m */,
+				BF2EDD8120EB061E00194970 /* FTBanaerCell.xib */,
+				BF2EDD8420EB063700194970 /* FTProductCell.h */,
+				BF2EDD8520EB063700194970 /* FTProductCell.m */,
+				BF2EDD8620EB063700194970 /* FTProductCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -381,7 +537,6 @@
 			children = (
 				BF30C94A20E6F03D00A5FCA2 /* FTHomeVC.h */,
 				BF30C94B20E6F03D00A5FCA2 /* FTHomeVC.m */,
-				BF2D301620E86575008FFFC7 /* FTHomeVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -396,7 +551,6 @@
 		BF30C92B20E6ECCA00A5FCA2 /* LSF */ = {
 			isa = PBXGroup;
 			children = (
-				BF2D300020E83338008FFFC7 /* Api */,
 				BF30C92C20E6ECCA00A5FCA2 /* Model */,
 				BF30C92D20E6ECCA00A5FCA2 /* View */,
 				BF30C92F20E6ECCA00A5FCA2 /* ViewModel */,
@@ -408,6 +562,10 @@
 		BF30C92C20E6ECCA00A5FCA2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BFBAD11120ED7A870084B4EA /* FTResponeModel.h */,
+				BFBAD11220ED7A870084B4EA /* FTResponeModel.m */,
+				BFBAD11420ED7B0B0084B4EA /* FTUserModel.h */,
+				BFBAD11520ED7B0B0084B4EA /* FTUserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -440,6 +598,9 @@
 				BF2D2FEA20E81801008FFFC7 /* FTAgreementVC.h */,
 				BF2D2FEB20E81801008FFFC7 /* FTAgreementVC.m */,
 				BF2D2FEC20E81801008FFFC7 /* FTAgreementVC.xib */,
+				BF28DF7720EA874C00780C32 /* FTUpdatePwdVC.h */,
+				BF28DF7820EA874C00780C32 /* FTUpdatePwdVC.m */,
+				BF28DF7920EA874C00780C32 /* FTUpdatePwdVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -514,6 +675,18 @@
 		BF30C93720E6ECCA00A5FCA2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF3FF12620EBF0F000316366 /* FTRecommendCell.h */,
+				BF3FF12720EBF0F000316366 /* FTRecommendCell.m */,
+				BF3FF12820EBF0F000316366 /* FTRecommendCell.xib */,
+				BF3FF11C20EBF03400316366 /* FTReHeaderCell.h */,
+				BF3FF11D20EBF03400316366 /* FTReHeaderCell.m */,
+				BF3FF11E20EBF03400316366 /* FTReHeaderCell.xib */,
+				BF3FF12B20EBF3F400316366 /* FTReTypeView.h */,
+				BF3FF12C20EBF3F400316366 /* FTReTypeView.m */,
+				BF3FF12E20EBF3FD00316366 /* FTReTypeView.xib */,
+				BF3FF13020EC160F00316366 /* FTReSelectTypeCell.h */,
+				BF3FF13120EC160F00316366 /* FTReSelectTypeCell.m */,
+				BF3FF13220EC160F00316366 /* FTReSelectTypeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -523,7 +696,14 @@
 			children = (
 				BF30C95020E6F08A00A5FCA2 /* FTRecommendVC.h */,
 				BF30C95120E6F08A00A5FCA2 /* FTRecommendVC.m */,
-				BF2D301A20E86590008FFFC7 /* FTRecommendVC.xib */,
+				BF3FF19120EC500C00316366 /* FTProductsFeaturedVC.h */,
+				BF3FF19220EC500C00316366 /* FTProductsFeaturedVC.m */,
+				BF3FF19420EC504300316366 /* FTMarketingVC.h */,
+				BF3FF19520EC504300316366 /* FTMarketingVC.m */,
+				BF3FF19720EC505900316366 /* FTNoviceVC.h */,
+				BF3FF19820EC505900316366 /* FTNoviceVC.m */,
+				BF3FF1A020EC52BC00316366 /* FTScrollViewVC.h */,
+				BF3FF1A120EC52BC00316366 /* FTScrollViewVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -549,6 +729,8 @@
 		BF30C93B20E6ECCA00A5FCA2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF28DFBB20EAD7F800780C32 /* FTTypeModel.h */,
+				BF28DFBC20EAD7F800780C32 /* FTTypeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -556,6 +738,9 @@
 		BF30C93C20E6ECCA00A5FCA2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF15DE9820EAE30B0043BCB5 /* InviteView */,
+				BF28DFA620EAD31F00780C32 /* LogoutView */,
+				BF28DFA520EAD30100780C32 /* SettingView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -565,7 +750,12 @@
 			children = (
 				BF30C95320E6F09E00A5FCA2 /* FTSettingVC.h */,
 				BF30C95420E6F09E00A5FCA2 /* FTSettingVC.m */,
-				BF2D301C20E8659B008FFFC7 /* FTSettingVC.xib */,
+				BF28DFA020EAD2C800780C32 /* FTMySettingVC.h */,
+				BF28DFA120EAD2C800780C32 /* FTMySettingVC.m */,
+				BF28DFA220EAD2C800780C32 /* FTMySettingVC.xib */,
+				BF15DE9320EAE12E0043BCB5 /* FTInviteFriendVC.h */,
+				BF15DE9420EAE12E0043BCB5 /* FTInviteFriendVC.m */,
+				BF15DE9520EAE12E0043BCB5 /* FTInviteFriendVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -622,6 +812,10 @@
 		BF30C94420E6ECCA00A5FCA2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BF28DF9220EA921500780C32 /* UIVieW+myFrame.h */,
+				BF28DF9320EA921600780C32 /* UIVieW+myFrame.m */,
+				BF28DF9020EA921500780C32 /* ZFUpDownButton.h */,
+				BF28DF9120EA921500780C32 /* ZFUpDownButton.m */,
 				BF30C9B020E6FCE300A5FCA2 /* UIButton+countDown.h */,
 				BF30C9B120E6FCE300A5FCA2 /* UIButton+countDown.m */,
 				BF30C9B520E6FCE400A5FCA2 /* UIButton+POImagePosition.h */,
@@ -635,6 +829,7 @@
 		BF30C94520E6ECCB00A5FCA2 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				BF3FF18D20EC4F9300316366 /* ZFScrollview */,
 				BF2D2FEF20E82590008FFFC7 /* SDK */,
 				BF30C97520E6FCC100A5FCA2 /* ZJScrollPageView */,
 				BF30C99B20E6FCC200A5FCA2 /* EmptyDataSet */,
@@ -648,6 +843,10 @@
 			children = (
 				BF30C9B920E6FD0900A5FCA2 /* FTUtil.h */,
 				BF30C9BA20E6FD0900A5FCA2 /* FTUtil.m */,
+				BF28DF9D20EAC61800780C32 /* FTNetWorkTool.h */,
+				BF28DF9E20EAC61800780C32 /* FTNetWorkTool.m */,
+				BFBAD10920ED69EC0084B4EA /* FTValueKey.h */,
+				BFBAD10A20ED6A070084B4EA /* FTNetWorkURL.h */,
 			);
 			path = Commen;
 			sourceTree = "<group>";
@@ -714,6 +913,21 @@
 			path = ../../../../Doctor_ios/BCYDoctor/BCYDoctor/Vender/EmptyDataSet;
 			sourceTree = "<group>";
 		};
+		BF3FF18D20EC4F9300316366 /* ZFScrollview */ = {
+			isa = PBXGroup;
+			children = (
+				BFBAD10620ED52570084B4EA /* FSBaseTopTableViewCell.h */,
+				BFBAD10720ED52570084B4EA /* FSBaseTopTableViewCell.m */,
+				BF3FF18F20EC4FBB00316366 /* FSPageContentView.h */,
+				BF3FF18E20EC4FBB00316366 /* FSPageContentView.m */,
+				BF3FF19B20EC509900316366 /* FSBottomTableViewCell.h */,
+				BF3FF19A20EC509800316366 /* FSBottomTableViewCell.m */,
+				BF3FF19E20EC50DC00316366 /* FSBaseTableView.h */,
+				BF3FF19D20EC50DB00316366 /* FSBaseTableView.m */,
+			);
+			path = ZFScrollview;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -774,20 +988,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF28DFB520EAD39B00780C32 /* FTMyVersionCell.xib in Resources */,
 				BF2D2FEE20E81801008FFFC7 /* FTAgreementVC.xib in Resources */,
 				BF2D301920E86584008FFFC7 /* FTNoticeVC.xib in Resources */,
 				BF30C91920E6E98800A5FCA2 /* LaunchScreen.storyboard in Resources */,
+				BF2EDD8320EB061E00194970 /* FTBanaerCell.xib in Resources */,
 				BF30C96C20E6F12C00A5FCA2 /* FTEditVC.xib in Resources */,
 				BF30C96720E6F10C00A5FCA2 /* FTFindPwdVC.xib in Resources */,
+				BF3FF13420EC160F00316366 /* FTReSelectTypeCell.xib in Resources */,
+				BF28DFA420EAD2C900780C32 /* FTMySettingVC.xib in Resources */,
 				BF30C91620E6E98800A5FCA2 /* Assets.xcassets in Resources */,
 				BF30C97120E6F13F00A5FCA2 /* FTBindPhoneVC.xib in Resources */,
+				BF28DF8020EA8C5700780C32 /* FTMineAvatarCell.xib in Resources */,
+				BF28DFBA20EAD55400780C32 /* FTMyLogoutCell.xib in Resources */,
+				BF28DF8F20EA8D1D00780C32 /* FTSubFunCell.xib in Resources */,
+				BF3FF12F20EBF3FD00316366 /* FTReTypeView.xib in Resources */,
 				BF30C95D20E6F0D500A5FCA2 /* FTLoginVC.xib in Resources */,
-				BF2D301720E86575008FFFC7 /* FTHomeVC.xib in Resources */,
-				BF2D301D20E8659B008FFFC7 /* FTSettingVC.xib in Resources */,
+				BF15DE9D20EAE3330043BCB5 /* FTInveteHeaderCell.xib in Resources */,
 				BF30C91420E6E98800A5FCA2 /* Main.storyboard in Resources */,
+				BF15DEA220EAE34A0043BCB5 /* FTInveteContentCell.xib in Resources */,
 				BF30C96220E6F0F900A5FCA2 /* FTRegsiterVC.xib in Resources */,
+				BF28DF8A20EA8CE500780C32 /* FTDetailSubCell.xib in Resources */,
+				BF28DF7B20EA874C00780C32 /* FTUpdatePwdVC.xib in Resources */,
+				BF2EDD8820EB063700194970 /* FTProductCell.xib in Resources */,
+				BF3FF12A20EBF0F000316366 /* FTRecommendCell.xib in Resources */,
+				BF28DF9C20EA9FEA00780C32 /* FTFunSubCell.xib in Resources */,
+				BF15DE9720EAE12E0043BCB5 /* FTInviteFriendVC.xib in Resources */,
+				BF28DFAB20EAD34A00780C32 /* FTMyHeaderCell.xib in Resources */,
+				BF28DF8520EA8CC100780C32 /* FTPartnerCell.xib in Resources */,
 				BF2D301F20E865A7008FFFC7 /* FTStoreVC.xib in Resources */,
-				BF2D301B20E86590008FFFC7 /* FTRecommendVC.xib in Resources */,
+				BF28DFB020EAD38800780C32 /* FTMyDetailCell.xib in Resources */,
+				BF3FF12020EBF03400316366 /* FTReHeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -843,17 +1074,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF2D301220E83ED3008FFFC7 /* FTFindPwdApi.m in Sources */,
 				BF2D2FED20E81801008FFFC7 /* FTAgreementVC.m in Sources */,
 				BF30C9A620E6FCC200A5FCA2 /* YTKBaseRequest.m in Sources */,
+				BFBAD11320ED7A870084B4EA /* FTResponeModel.m in Sources */,
+				BF3FF19020EC4FBB00316366 /* FSPageContentView.m in Sources */,
+				BF15DE9620EAE12E0043BCB5 /* FTInviteFriendVC.m in Sources */,
+				BF3FF1A220EC52BC00316366 /* FTScrollViewVC.m in Sources */,
 				BF30C9B720E6FCE400A5FCA2 /* UIButton+POImagePosition.m in Sources */,
+				BF28DFAA20EAD34A00780C32 /* FTMyHeaderCell.m in Sources */,
 				BF30C9AA20E6FCC200A5FCA2 /* YTKChainRequestAgent.m in Sources */,
+				BF28DF7A20EA874C00780C32 /* FTUpdatePwdVC.m in Sources */,
+				BF15DEA120EAE34A0043BCB5 /* FTInveteContentCell.m in Sources */,
+				BF3FF19320EC500C00316366 /* FTProductsFeaturedVC.m in Sources */,
 				BF30C99F20E6FCC200A5FCA2 /* UIViewController+ZJScrollPageController.m in Sources */,
 				BF30C94920E6F01300A5FCA2 /* BaseVC.m in Sources */,
-				BF2D300320E83352008FFFC7 /* FTLoginApi.m in Sources */,
-				BF2D300C20E833C1008FFFC7 /* FTBindPhoneApi.m in Sources */,
 				BF30C9A420E6FCC200A5FCA2 /* ZJSegmentStyle.m in Sources */,
-				BF2D300920E83393008FFFC7 /* FTGetCodeApi.m in Sources */,
+				BF28DF7F20EA8C5700780C32 /* FTMineAvatarCell.m in Sources */,
+				BF2EDD8220EB061E00194970 /* FTBanaerCell.m in Sources */,
+				BF15DE9C20EAE3330043BCB5 /* FTInveteHeaderCell.m in Sources */,
+				BF28DF8420EA8CC100780C32 /* FTPartnerCell.m in Sources */,
+				BF28DF9B20EA9FEA00780C32 /* FTFunSubCell.m in Sources */,
+				BF3FF12D20EBF3F400316366 /* FTReTypeView.m in Sources */,
 				BF30C94C20E6F03D00A5FCA2 /* FTHomeVC.m in Sources */,
 				BF30C96B20E6F12C00A5FCA2 /* FTEditVC.m in Sources */,
 				BF30C97420E6F42F00A5FCA2 /* FTBaseTabbarVC.m in Sources */,
@@ -864,10 +1105,16 @@
 				BF30C9A120E6FCC200A5FCA2 /* ZJContentView.m in Sources */,
 				BF30C99E20E6FCC200A5FCA2 /* UIView+ZJFrame.m in Sources */,
 				BF30C91C20E6E98800A5FCA2 /* main.m in Sources */,
+				BFBAD10820ED52570084B4EA /* FSBaseTopTableViewCell.m in Sources */,
+				BF3FF11F20EBF03400316366 /* FTReHeaderCell.m in Sources */,
 				BF30C9A920E6FCC200A5FCA2 /* YTKChainRequest.m in Sources */,
 				BF30C9A320E6FCC200A5FCA2 /* ZJScrollSegmentView.m in Sources */,
-				BF2D300620E8335E008FFFC7 /* FTRegisterApi.m in Sources */,
+				BF28DF8E20EA8D1D00780C32 /* FTSubFunCell.m in Sources */,
+				BF28DFAF20EAD38800780C32 /* FTMyDetailCell.m in Sources */,
+				BF28DF9F20EAC61800780C32 /* FTNetWorkTool.m in Sources */,
 				BF30C97020E6F13F00A5FCA2 /* FTBindPhoneVC.m in Sources */,
+				BF28DF9520EA921600780C32 /* UIVieW+myFrame.m in Sources */,
+				BF3FF19F20EC50DC00316366 /* FSBaseTableView.m in Sources */,
 				BF30C95C20E6F0D500A5FCA2 /* FTLoginVC.m in Sources */,
 				BF30C9A020E6FCC200A5FCA2 /* ZJCollectionView.m in Sources */,
 				BF30C9A220E6FCC200A5FCA2 /* ZJScrollPageView.m in Sources */,
@@ -875,18 +1122,29 @@
 				BF30C9B820E6FCE400A5FCA2 /* UIViewController+LCENavigationBar.m in Sources */,
 				BF30C95520E6F09E00A5FCA2 /* FTSettingVC.m in Sources */,
 				BF30C96620E6F10C00A5FCA2 /* FTFindPwdVC.m in Sources */,
-				BF2D300F20E833D1008FFFC7 /* FTUpdatePwdApi.m in Sources */,
+				BF28DF8920EA8CE500780C32 /* FTDetailSubCell.m in Sources */,
+				BF28DFB920EAD55400780C32 /* FTMyLogoutCell.m in Sources */,
+				BF3FF19920EC505A00316366 /* FTNoviceVC.m in Sources */,
 				BF30C9AB20E6FCC200A5FCA2 /* YTKNetworkAgent.m in Sources */,
+				BF2EDD8720EB063700194970 /* FTProductCell.m in Sources */,
+				BF3FF19C20EC509900316366 /* FSBottomTableViewCell.m in Sources */,
 				BF30C9B620E6FCE400A5FCA2 /* UIButton+countDown.m in Sources */,
 				BF30C90E20E6E98800A5FCA2 /* AppDelegate.m in Sources */,
+				BF3FF13320EC160F00316366 /* FTReSelectTypeCell.m in Sources */,
 				BF30C95820E6F0BA00A5FCA2 /* FTStoreVC.m in Sources */,
+				BF28DFB420EAD39B00780C32 /* FTMyVersionCell.m in Sources */,
+				BF3FF12920EBF0F000316366 /* FTRecommendCell.m in Sources */,
+				BF28DFBD20EAD7F800780C32 /* FTTypeModel.m in Sources */,
+				BF28DF9420EA921600780C32 /* ZFUpDownButton.m in Sources */,
 				BF30C9AC20E6FCC200A5FCA2 /* YTKNetworkConfig.m in Sources */,
-				BF2D301520E8422E008FFFC7 /* FTPerfectInfoApi.m in Sources */,
 				BF30C9A520E6FCC200A5FCA2 /* ZJTitleView.m in Sources */,
+				BF28DFA320EAD2C900780C32 /* FTMySettingVC.m in Sources */,
 				BF30C95220E6F08A00A5FCA2 /* FTRecommendVC.m in Sources */,
 				BF30C96120E6F0F900A5FCA2 /* FTRegsiterVC.m in Sources */,
 				BF30C9AF20E6FCC200A5FCA2 /* UIScrollView+EmptyDataSet.m in Sources */,
 				BF30C9A820E6FCC200A5FCA2 /* YTKBatchRequestAgent.m in Sources */,
+				BFBAD11620ED7B0B0084B4EA /* FTUserModel.m in Sources */,
+				BF3FF19620EC504300316366 /* FTMarketingVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

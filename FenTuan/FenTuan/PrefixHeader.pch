@@ -22,8 +22,13 @@
 #import <Bugtags/Bugtags.h>
 #import <SMS_SDK/SMSSDK.h>
 #import <WXApi.h>
-//通知名称
-#define WXLOGINSUCCESS @"wxloginsuccess"
+#import "FTNetWorkTool.h"
+#import "FTValueKey.h"
+#import "FTNetWorkURL.h"
+#import "FTUserModel.h"
+#import "FTResponeModel.h"
+//弱引用
+#define WEAKSELF __weak typeof(self) weakSelf = self;
 //动态获取设备高度
 #define IPHONE_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define IPHONE_WIDTH [UIScreen mainScreen].bounds.size.width

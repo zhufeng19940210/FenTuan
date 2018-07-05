@@ -10,6 +10,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     ///初始化三方的东西
     [self setupBaseInitializeWithOptions];
+    //第一次到登录注册的地方了
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     FTLoginVC *loginvc = [[FTLoginVC alloc]init];
@@ -21,11 +22,11 @@
 #pragma mark 三方库的初始化
 -(void)setupBaseInitializeWithOptions
 {   //微信
-    [WXApi registerApp:@"wx46b14ff64afefa78"];
+    [WXApi registerApp:FT_WX_APPID];
     [Bugtags startWithAppKey:@"b7f0f5b36e8f02e6d2564bd2b7eb3938" invocationEvent:BTGInvocationEventBubble];
     //Network Config
     YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
-    config.baseUrl = @"http://47.98.155.149:8088";
+    config.baseUrl = @"";
     // SVProgressHUD
     //这里设置下样式
     [SVProgressHUD setDefaultStyle:SVProgressHUDStyleCustom];
@@ -65,20 +66,30 @@
         SendAuthResp *rep = (SendAuthResp *)resp;
         if (rep.errCode== 0) {
             NSLog(@"rep:%@",rep);
+            [SVProgressHUD show];
             AFHTTPSessionManager *manager =[AFHTTPSessionManager  manager];
             manager.responseSerializer = [AFHTTPResponseSerializer serializer];
             NSMutableDictionary *param = [NSMutableDictionary dictionary];
-            param[@"appid"] = @"";
-            param[@"secret"] = @"";
-            param[@"code"] = @"";
+            param[@"appid"] = FT_WX_APPID;
+            param[@"secret"] = FT_WX_SECRET;
+            param[@"code"] = rep.code;
             param[@"grant_type"] = @"authorization_code";
-            [manager GET:@"https://api.weixin.qq.com/sns/oauth2/access_token" parameters:param progress:^(NSProgress * _Nonnull downloadProgress) {
+            [manager GET:[NSString stringWithFormat:@"%@",FT_WX_THIRD_URL] parameters:param progress:^(NSProgress * _Nonnull downloadProgress) {
             } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+                [SVProgressHUD dismiss];
                 NSLog(@"responseObject:%@",responseObject);
+                NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableLeaves error:nil];
+                NSLog(@"jsonDict:%@",jsonDict);
+                [[NSUserDefaults standardUserDefaults]setValue:jsonDict[@"access_token"] forKey:FT_ACCESS_TOEKEN];
+                [[NSUserDefaults standardUserDefaults]setValue:jsonDict[@"expires_in"] forKey:FT_EXPIRES_IN];
+                [[NSUserDefaults standardUserDefaults]setValue:jsonDict[@"openid"] forKey:FT_OPENID];
+                [[NSUserDefaults standardUserDefaults]setValue:jsonDict[@"refresh_token"] forKey:FT_REFRESH_TOKEN];
+                [[NSUserDefaults standardUserDefaults]setValue:jsonDict[@"scope"] forKey:FT_SCOPE];
+                 [[NSUserDefaults standardUserDefaults]setValue:jsonDict[@"unionid"] forKey:FT_UNIONID];
                 //这里去获取那些字段的值
-                //发送一个通知出去了
-                [[NSNotificationCenter defaultCenter]postNotificationName:WXLOGINSUCCESS object:nil];
+                [[NSNotificationCenter defaultCenter]postNotificationName:FT_WXLOGINSUCCESS object:nil];
             } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                [SVProgressHUD dismiss];
                 [SVProgressHUD showErrorWithStatus:@"微信获取失败"];
                 return;
             }];

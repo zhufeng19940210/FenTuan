@@ -6,14 +6,13 @@
 #import "FTEditVC.h"
 #import "FTAgreementVC.h"
 #import "UIButton+countDown.h"
-#import <SMS_SDK/SMSSDK.h> //短信
-#import <SMS_SDK/SMSSDK+ContactFriends.h>
-#import "FTGetCodeApi.h"
+#import "FTEditVC.h"
 @interface FTRegsiterVC ()
 @property (weak, nonatomic) IBOutlet UITextField *tf_phone;
 @property (weak, nonatomic) IBOutlet UITextField *tf_code;
 @property (weak, nonatomic) IBOutlet UIButton *code_btn;
 @property (weak, nonatomic) IBOutlet UIButton *agree_btn;
+@property (nonatomic,copy)NSString *codeStr;
 @end
 @implementation FTRegsiterVC
 - (void)viewDidLoad {
@@ -33,6 +32,8 @@
 #pragma mark 获取验证码
 - (IBAction)actionGetCodeBtn:(UIButton *)sender
 {
+    [_tf_phone resignFirstResponder];
+    [_tf_code resignFirstResponder];
     if (self.tf_phone.text.length == 0) {
         [SVProgressHUD showInfoWithStatus:@"手机号码不能为空"];
         return;
@@ -41,14 +42,24 @@
         [SVProgressHUD showInfoWithStatus:@"手机号码有误"];
         return;
     }
-    FTGetCodeApiParam *param = [[FTGetCodeApiParam alloc]init];
-    param.phone = _tf_phone.text;
-    
-    FTGetCodeApi *api = [[FTGetCodeApi alloc]initWithParam:param];
-    [api startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
-        NSLog(@"request:%@",request.responseObject);
-    } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
-        [SVProgressHUD showErrorWithStatus:@"服务器请求失败"];
+    [SVProgressHUD show];
+    WEAKSELF
+    NSMutableDictionary *param = [NSMutableDictionary dictionary];
+    param[@"phone"] = _tf_phone.text;
+    [[FTNetWorkTool shareInstacne]PostWithUrl:[NSString stringWithFormat:@"%@%@",FTBASE_URL,FT_SENDCODE_URL] paramter:param success:^(id responseObject) {
+        NSLog(@"responseObject:%@",responseObject);
+        [SVProgressHUD dismiss];
+        FTResponeModel *res = [FTResponeModel yy_modelWithDictionary:responseObject];
+        if (res.head.retCode == 0) {
+            [SVProgressHUD showSuccessWithStatus:@"获取成功"];
+            weakSelf.codeStr = res.data;
+        }else{
+            [SVProgressHUD showErrorWithStatus:res.head.message];
+            return ;
+        }
+    } failure:^(NSError *error) {
+        [SVProgressHUD dismiss];
+        [SVProgressHUD showInfoWithStatus:@"服务器请求失败"];
         return;
     }];
     [sender startWithTime:59 title:@"获取验证码" countDownTitle:@"秒" mainColor:[UIColor darkGrayColor] countColor:[UIColor darkGrayColor]];
@@ -62,6 +73,8 @@
 #pragma mark  下一步
 - (IBAction)ationNextBtn:(UIButton *)sender
 {
+    [_tf_phone resignFirstResponder];
+    [_tf_code resignFirstResponder];
     if (self.tf_phone.text.length == 0) {
         [SVProgressHUD showInfoWithStatus:@"手机号码不能为空"];
         return;
@@ -74,6 +87,15 @@
         [SVProgressHUD showInfoWithStatus:@"验证码不能为空"];
         return;
     }
+    if (![_tf_code.text isEqualToString:_codeStr]) {
+        [SVProgressHUD showInfoWithStatus:@"验证码有误"];
+        return;
+    }
+    FTEditVC *editvc = [[FTEditVC alloc]init];
+    editvc.phone = _tf_phone.text;
+    editvc.code  = _tf_code.text;
+    editvc.isBindPhone = NO;
+    [self.navigationController pushViewController:editvc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
