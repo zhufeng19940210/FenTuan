@@ -3,7 +3,7 @@
 //  Created by bailing on 2018/7/2.
 //  Copyright © 2018年 zhufeng. All rights reserved.
 #import "FTUpdatePwdVC.h"
-@interface FTUpdatePwdVC ()
+@interface FTUpdatePwdVC ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *tf_oldpwd;
 @property (weak, nonatomic) IBOutlet UITextField *tf_newpwd;
 @property (weak, nonatomic) IBOutlet UITextField *tf_confimed;
@@ -12,6 +12,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"修改密码";
+    self.tf_oldpwd.delegate = self;
+    self.tf_newpwd.delegate = self;
+    self.tf_confimed.delegate = self;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -57,5 +60,30 @@
         [SVProgressHUD showErrorWithStatus:@"服务器请求失败"];
         return;
     }];
+}
+
+#pragma mark -UITextFieldDelegate
+//开始编辑的时候
+-(void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    if(textField.tag ==0 ){
+        textField.background = [UIImage imageNamed:@"select_bg.png"];
+    }else if (textField.tag ==1){
+        textField.background = [UIImage imageNamed:@"select_bg.png"];
+    }else if (textField.tag ==2){
+        textField.background = [UIImage imageNamed:@"select_bg.png"];
+    }
+}
+
+//结束编辑的时候
+-(void)textFieldDidEndEditing:(UITextField *)textField
+{
+    if(textField.tag ==0 ){
+        textField.background = [UIImage imageNamed:@""];
+    }else if (textField.tag ==1){
+        textField.background = [UIImage imageNamed:@""];
+    }else if (textField.tag ==2){
+        textField.background = [UIImage imageNamed:@""];
+    }
 }
 @end

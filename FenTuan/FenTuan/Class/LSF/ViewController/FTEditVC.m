@@ -3,7 +3,7 @@
 //  Created by bailing on 2018/6/29.
 //  Copyright © 2018年 zhufeng. All rights reserved.
 #import "FTEditVC.h"
-@interface FTEditVC ()
+@interface FTEditVC ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *tf_invitate;
 @property (weak, nonatomic) IBOutlet UITextField *tf_name;
 @property (weak, nonatomic) IBOutlet UITextField *tf_pwd;
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"填写信息";
+    self.tf_invitate.delegate = self;
+    self.tf_name.delegate  = self;
+    self.tf_pwd.delegate = self;
     if (self.isBindPhone == YES) {
         //获取用户的信息
         [self getUserInfo];
@@ -35,13 +38,13 @@
     [manager GET:userUrlStr parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"responseObject:%@",responseObject);
-//        [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"city"] forKey:FT_CTIY];
-//         [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"country"] forKey:FT_COUNTRY];
-//         [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"headimgurl"] forKey:FT_HEADIMAGEURL];
-//         [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"language"] forKey:FT_LANAUGAE];
-//         [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"nickname"] forKey:FT_NICKNAME];
-//         [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"province"] forKey:FT_PROVICEE];
-//        [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"sex"] forKey:FT_SEX];
+        [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"city"] forKey:FT_CTIY];
+         [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"country"] forKey:FT_COUNTRY];
+         [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"headimgurl"] forKey:FT_HEADIMAGEURL];
+         [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"language"] forKey:FT_LANAUGAE];
+         [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"nickname"] forKey:FT_NICKNAME];
+         [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"province"] forKey:FT_PROVICEE];
+        [[NSUserDefaults standardUserDefaults]setValue:responseObject[@"sex"] forKey:FT_SEX];
         weakSelf.sex = responseObject[@"sex"];
         weakSelf.address = [NSString stringWithFormat:@"%@%@",responseObject[@"province"],responseObject[@"city"]];
         weakSelf.nickname = responseObject[@"nickname"];
@@ -130,6 +133,32 @@
         return;
     }];
 }
+
+#pragma mark -UITextFieldDelegate
+//开始编辑的时候
+-(void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    if(textField.tag ==0 ){
+        textField.background = [UIImage imageNamed:@"select_bg.png"];
+    }else if (textField.tag ==1){
+        textField.background = [UIImage imageNamed:@"select_bg.png"];
+    }else if (textField.tag ==2){
+        textField.background = [UIImage imageNamed:@"select_bg.png"];
+    }
+}
+
+//结束编辑的时候
+-(void)textFieldDidEndEditing:(UITextField *)textField
+{
+    if(textField.tag ==0 ){
+        textField.background = [UIImage imageNamed:@""];
+    }else if (textField.tag ==1){
+        textField.background = [UIImage imageNamed:@""];
+    }else if (textField.tag ==2){
+        textField.background = [UIImage imageNamed:@""];
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }

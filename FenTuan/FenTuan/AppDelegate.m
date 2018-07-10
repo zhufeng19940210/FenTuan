@@ -10,13 +10,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     ///初始化三方的东西
     [self setupBaseInitializeWithOptions];
-    //第一次到登录注册的地方了
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    FTLoginVC *loginvc = [[FTLoginVC alloc]init];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:loginvc];
-    self.window.rootViewController = nav;
-    [self.window makeKeyAndVisible];
+//    //第一次到登录注册的地方了
+//    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    FTLoginVC *loginvc = [[FTLoginVC alloc]init];
+//    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:loginvc];
+//    self.window.rootViewController = nav;
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 #pragma mark 三方库的初始化

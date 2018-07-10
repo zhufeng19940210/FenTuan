@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iyd-kQ-EPp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iyd-kQ-EPp">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -50,13 +50,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" red="1" green="0.2216645924" blue="0.38367187460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" red="1" green="0.2216645924" blue="0.38367187460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.81568627449999997" green="0.0" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.81568627450980391" green="0.0" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="T76-Mm-NHd" kind="relationship" relationship="viewControllers" id="WfP-dc-biY"/>
                         <segue destination="bwQ-vR-MIp" kind="relationship" relationship="viewControllers" id="fyW-Ch-W99"/>
-                        <segue destination="2Or-WG-5ME" kind="relationship" relationship="viewControllers" id="SmS-Gr-7zS"/>
                         <segue destination="2TP-CZ-Gap" kind="relationship" relationship="viewControllers" id="g7d-PN-Sm6"/>
                         <segue destination="j5G-dL-Vka" kind="relationship" relationship="viewControllers" id="IdI-3u-CBR"/>
                     </connections>
@@ -111,14 +110,14 @@
         <scene sceneID="ErC-c2-VCD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T76-Mm-NHd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="tab_ic_home_def" springLoaded="YES" id="wgY-tN-oPl">
+                    <tabBarItem key="tabBarItem" title="" image="tab_ic_home_nor" springLoaded="YES" id="wgY-tN-oPl">
                         <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ecg-pt-m5y">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.22352941176470587" blue="0.38431372549019605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.81568627449999997" green="0.0" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -133,14 +132,14 @@
         <scene sceneID="yVs-33-bop">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="j5G-dL-Vka" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="tab_ic_my_def" id="S0I-dX-kgT">
+                    <tabBarItem key="tabBarItem" title="" image="tab_ic_my_nor" id="S0I-dX-kgT">
                         <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4Dn-5T-cod">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.2216645924" blue="0.38367187460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.81568627449999997" green="0.0" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -155,14 +154,14 @@
         <scene sceneID="uid-tk-dWO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2TP-CZ-Gap" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="tab_ic_inform_def" id="nPL-9S-869">
+                    <tabBarItem key="tabBarItem" title="" image="tab_ic_inform_nor" id="nPL-9S-869">
                         <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c8c-aK-tFY">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.2216645924" blue="0.38367187460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.81568627449999997" green="0.0" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -184,7 +183,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8Ma-3S-AWK">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.2216645924" blue="0.38367187460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.81568627449999997" green="0.0" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -199,14 +198,14 @@
         <scene sceneID="MVK-93-eq2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bwQ-vR-MIp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="tab_ic_recom_def" id="mCQ-1V-pOD">
+                    <tabBarItem key="tabBarItem" title="" image="tab_ic_recom_nor" id="mCQ-1V-pOD">
                         <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="edd-id-LyI">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.2216645924" blue="0.38367187460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.81568627449999997" green="0.0" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -263,10 +262,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tab_ic_home_def" width="37" height="37"/>
-        <image name="tab_ic_inform_def" width="37" height="37"/>
+        <image name="tab_ic_home_nor" width="40" height="40"/>
+        <image name="tab_ic_inform_nor" width="40" height="40"/>
         <image name="tab_ic_mall_def" width="37" height="37"/>
-        <image name="tab_ic_my_def" width="37" height="37"/>
-        <image name="tab_ic_recom_def" width="37" height="37"/>
+        <image name="tab_ic_my_nor" width="40" height="40"/>
+        <image name="tab_ic_recom_nor" width="40" height="40"/>
     </resources>
 </document>

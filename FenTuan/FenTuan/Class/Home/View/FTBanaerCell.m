@@ -24,6 +24,7 @@
 - (void)setUrls:(NSArray *)urls{
     //这里设置一个占位图片了
     //_sdView.placeholderImage = [UIImage imageNamed:@""];
+    NSLog(@"urls:%lu",(unsigned long)urls.count);
     _sd_view.imageURLStringsGroup = urls;
 }
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index{

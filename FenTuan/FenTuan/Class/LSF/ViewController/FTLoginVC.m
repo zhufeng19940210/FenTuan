@@ -15,7 +15,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.barTintColor = MainThemeColor;
-    self.view.backgroundColor = MainThemeColor;
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(wxLoginSuccess) name:FT_WXLOGINSUCCESS object:nil];
     ///ZF --测试账号
     _tf_phone.text = @"15070078339";
@@ -27,6 +26,18 @@
     FTBindPhoneVC *bindphonevc = [[FTBindPhoneVC alloc]init];
     [self.navigationController pushViewController:bindphonevc animated:YES];
 }
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
+}
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    self.navigationController.navigationBarHidden = NO;
+}
+
 #pragma mark 登录
 - (IBAction)actionLoginBtn:(UIButton *)sender
 {

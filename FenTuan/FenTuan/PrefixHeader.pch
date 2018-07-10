@@ -32,10 +32,8 @@
 //动态获取设备高度
 #define IPHONE_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define IPHONE_WIDTH [UIScreen mainScreen].bounds.size.width
-
 //设置颜色
 #define HEXCOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
-
 //设置颜色与透明度
 #define HEXCOLORAL(rgbValue, al) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:al]
 //颜色
@@ -43,7 +41,7 @@
 #define RGBA(A,B,C,D) [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:D]
 
 #define GrayFontColor HEXCOLOR(0xbbbbbb)
-#define MainThemeColor HEXCOLOR(0xFF3962)
+#define MainThemeColor HEXCOLOR(0xD000F6)
 #define BackgroundColor HEXCOLOR(0xf5f5f5)
 #define LineColor HEXCOLOR(0xEAEAEA)
 #define InputTextColor HEXCOLOR(0x333333)

@@ -29,7 +29,7 @@
 #define FT_FINPAGE_URL    @"/user/findPage"
 /*============================== 首页接口 =================================*/
 ///首页的轮播URL
-#define FT_LUNBO
-
-
+#define FT_HOME_BANAER_URL  @"/figure/getFigure"
+///首页的推荐数据
+#define FT_HOME_TUIJIAN_URL @"/shopList/sendJdData"
 #endif /* FTNetWorkURL_h */

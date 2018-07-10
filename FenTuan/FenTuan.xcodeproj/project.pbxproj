@@ -114,6 +114,7 @@
 		BF3FF19C20EC509900316366 /* FSBottomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF19A20EC509800316366 /* FSBottomTableViewCell.m */; };
 		BF3FF19F20EC50DC00316366 /* FSBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF19D20EC50DB00316366 /* FSBaseTableView.m */; };
 		BF3FF1A220EC52BC00316366 /* FTScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3FF1A120EC52BC00316366 /* FTScrollViewVC.m */; };
+		BF5EA17F20F44B7100F4A35E /* ADModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5EA17E20F44B7100F4A35E /* ADModel.m */; };
 		BFBAD10820ED52570084B4EA /* FSBaseTopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBAD10720ED52570084B4EA /* FSBaseTopTableViewCell.m */; };
 		BFBAD11320ED7A870084B4EA /* FTResponeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBAD11220ED7A870084B4EA /* FTResponeModel.m */; };
 		BFBAD11620ED7B0B0084B4EA /* FTUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBAD11520ED7B0B0084B4EA /* FTUserModel.m */; };
@@ -301,6 +302,8 @@
 		BF3FF19E20EC50DC00316366 /* FSBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseTableView.h; sourceTree = "<group>"; };
 		BF3FF1A020EC52BC00316366 /* FTScrollViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTScrollViewVC.h; sourceTree = "<group>"; };
 		BF3FF1A120EC52BC00316366 /* FTScrollViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTScrollViewVC.m; sourceTree = "<group>"; };
+		BF5EA17D20F44B7100F4A35E /* ADModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADModel.h; sourceTree = "<group>"; };
+		BF5EA17E20F44B7100F4A35E /* ADModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADModel.m; sourceTree = "<group>"; };
 		BFBAD10620ED52570084B4EA /* FSBaseTopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseTopTableViewCell.h; sourceTree = "<group>"; };
 		BFBAD10720ED52570084B4EA /* FSBaseTopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseTopTableViewCell.m; sourceTree = "<group>"; };
 		BFBAD10920ED69EC0084B4EA /* FTValueKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTValueKey.h; sourceTree = "<group>"; };
@@ -515,6 +518,8 @@
 		BF30C92720E6ECCA00A5FCA2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF5EA17D20F44B7100F4A35E /* ADModel.h */,
+				BF5EA17E20F44B7100F4A35E /* ADModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1108,6 +1113,7 @@
 				BFBAD10820ED52570084B4EA /* FSBaseTopTableViewCell.m in Sources */,
 				BF3FF11F20EBF03400316366 /* FTReHeaderCell.m in Sources */,
 				BF30C9A920E6FCC200A5FCA2 /* YTKChainRequest.m in Sources */,
+				BF5EA17F20F44B7100F4A35E /* ADModel.m in Sources */,
 				BF30C9A320E6FCC200A5FCA2 /* ZJScrollSegmentView.m in Sources */,
 				BF28DF8E20EA8D1D00780C32 /* FTSubFunCell.m in Sources */,
 				BF28DFAF20EAD38800780C32 /* FTMyDetailCell.m in Sources */,

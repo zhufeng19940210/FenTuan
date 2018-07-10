@@ -5,12 +5,24 @@
 #import "FTHomeVC.h"
 #import "FTBanaerCell.h"
 #import "FTProductCell.h"
+#import "ADModel.h"
+#import "ZJScrollPageView.h"
 @interface FTHomeVC ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
 @property (nonatomic,strong)NSMutableArray *dataArray;
 @property (nonatomic,strong)NSMutableArray *imageUrl;
+//横向滚动视图
+@property (nonatomic, weak) ZJScrollPageView *scrollPageView;
+@property (nonatomic,strong)NSMutableArray *titleArray;
 @end
 @implementation FTHomeVC
+-(NSMutableArray *)titleArray
+{
+    if (!_titleArray) {
+        _titleArray = [NSMutableArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6", nil];
+    }
+    return _titleArray;
+}
 -(NSMutableArray *)dataArray
 {
     if (!_dataArray) {
@@ -21,7 +33,7 @@
 -(NSMutableArray *)imageUrl
 {
     if (!_imageUrl) {
-        _imageUrl = [NSMutableArray arrayWithObjects:@"http://14.29.68.166:8862/advertising/2018/05/3c299c20658f42feabedd3e44e0836e8.png",@"http://14.29.68.166:8862/advertising/2018/05/5ac356e1e0be45bebec509b390c80e44.jpg",@"http://14.29.68.166:8862/advertising/2018/05/aee8867013a845cc826538dfd5f69b62.jpg", nil];
+        _imageUrl = [NSMutableArray array];
     }
     return _imageUrl;
 }
@@ -29,7 +41,42 @@
     [super viewDidLoad];
     self.navigationItem.title = @"首页";
     [self setupNav];
+    [self  requestAdURL];
+    [self  requestContentData];
     [self setupTableView];
+}
+#pragma mark --请求轮播图片
+-(void)requestAdURL
+{
+    [[FTNetWorkTool shareInstacne]GetWithUrl:[NSString stringWithFormat:@"%@%@",FTBASE_URL,FT_HOME_BANAER_URL] paramter:nil success:^(id responseObject) {
+        NSLog(@"responseObject:%@",responseObject);
+        FTResponeModel *res = [FTResponeModel mj_objectWithKeyValues:responseObject];
+        if (res.head.retCode == 0) {
+            NSMutableArray *array = [NSMutableArray array];
+            [self.imageUrl removeAllObjects];
+            array = [ADModel mj_objectArrayWithKeyValuesArray:res.data];
+            for (ADModel *model in array) {
+                [self.imageUrl addObject:model.shufflingFigure];
+            }
+            [self.tableview reloadData];
+            NSLog(@"self.imagurl:%lu",(unsigned long)self.imageUrl.count);
+        }
+    } failrue:^(NSError *error) {
+        [SVProgressHUD showErrorWithStatus:@"服务器请求失败"];
+        return ;
+    }];
+}
+
+#pragma mark -- requestContentData
+-(void)requestContentData
+{
+    NSMutableDictionary *param = [NSMutableDictionary dictionary];
+    param[@"pageStart"] = @"1";
+    [[FTNetWorkTool shareInstacne]PostWithUrl:[NSString stringWithFormat:@"%@%@",FTBASE_URL,FT_HOME_TUIJIAN_URL] paramter:param success:^(id responseObject) {
+        NSLog(@"responseobject:%@",responseObject);
+    } failure:^(NSError *error) {
+        
+    }];
 }
 #pragma mark -- setupNav
 -(void)setupNav
@@ -91,10 +138,51 @@
     if (section == 1) {
         UIView *buleView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50)];
         buleView.backgroundColor = [UIColor yellowColor];
+        [buleView addSubview:self.scrollPageView];
         return buleView;
     }else{
         return nil;
     }
+}
+
+
+
+#pragma mark - getter
+
+- (ZJScrollPageView *)scrollPageView
+{
+    if(_scrollPageView == nil)
+    {
+        ZJSegmentStyle *style = [[ZJSegmentStyle alloc] init];
+        //显示滚动条
+        style.showLine = YES;
+        // 颜色渐变
+        style.gradualChangeTitleColor = YES;
+        style.contentViewBounces = NO;
+        style.animatedContentViewWhenTitleClicked = NO;
+        style.autoAdjustTitlesWidth = YES;
+        style.scrollLineColor =MainThemeColor;
+        style.selectedTitleColor = MainThemeColor;
+        style.normalTitleColor = MainThemeColor;
+        ZJScrollPageView *scrollPageView = [[ZJScrollPageView alloc] initWithFrame:CGRectMake(0, 0, IPHONE_WIDTH, IPHONE_HEIGHT-64) segmentStyle:style titles:_titleArray parentViewController:self delegate:self];
+        _scrollPageView = scrollPageView;
+        scrollPageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    }
+    return _scrollPageView;
+}
+#pragma mark - ZJScrollPageViewDelegate
+- (NSInteger)numberOfChildViewControllers {
+    return self.titleArray.count;
+}
+- (UIViewController <ZJScrollPageViewChildVcDelegate> *)childViewController:(UIViewController<ZJScrollPageViewChildVcDelegate> *)reuseViewController forIndex:(NSInteger)index {
+    UIViewController<ZJScrollPageViewChildVcDelegate> *childVc = reuseViewController;
+    if (!childVc) {
+        childVc = self.childViewControllers[index];
+    }
+    return childVc;
+}
+- (BOOL)shouldAutomaticallyForwardAppearanceMethods{
+    return NO;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -126,14 +214,12 @@
         return nil;
     }
 }
-
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     CGFloat offsetY = scrollView.contentOffset.y;
-    NSLog(@"offsetY:%f",offsetY);
     // 修改组头悬挂位置
     CGFloat height = IPHONE_WIDTH * (362/745.0);
     if (offsetY >= height) {
