@@ -29,5 +29,7 @@ target 'FenTuan' do
     #pod 'KVOController'
     # 微信登录
     pod 'WechatOpenSDK'
+    #导入新的框架
+    pod 'LTScrollView',
   # Pods for FenTuan
 end

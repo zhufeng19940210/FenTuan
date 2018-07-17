@@ -32,4 +32,10 @@
 #define FT_HOME_BANAER_URL  @"/figure/getFigure"
 ///首页的推荐数据
 #define FT_HOME_TUIJIAN_URL @"/shopList/sendJdData"
+///
+//http://47.98.155.149:8088/lejiaokeji/novice/sendData这个是新手推荐
+//http://47.98.155.149:8088/lejiaokeji/market/sendMarket营销素材
+//http://47.98.155.149:8088/lejiaokeji/jdTj/getJdTjData获取京东推荐
+//http://47.98.155.149:8088/lejiaokeji/pddTj/getPddTjData平多多的推荐
+
 #endif /* FTNetWorkURL_h */

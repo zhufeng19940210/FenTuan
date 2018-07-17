@@ -32,7 +32,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"推荐";
+    self.navigationItem.title = @"推荐";
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeScrollStatus) name:@"leaveTop" object:nil];
     self.view.backgroundColor = [UIColor whiteColor];
     [self setupSubViews];
